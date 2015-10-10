@@ -7,8 +7,6 @@ permalink: /cv/
 <div class="home">
 	<div class="section">
 		<h3>Profile</h3>
-	  <p>I'm a PhD student in the department of Computer Science</p>
-	  <p>I am doing research on Human Computer Interaction, which is more focusing on cross-device interaction and application</p>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -62,7 +60,7 @@ permalink: /cv/
   		<li><h5>Research</h5></li>
   		Interaction Design, User-centred design, Quantitative & Qualitative experiments & analyses
   		<li><h5>Language</h5></li>
-  		English(Full professional proficiency); French(Conversational); Chinese(Native)
+  		English; French(Conversational); Chinese(Native)
   	</ul>
 	</div>
 	<div>
