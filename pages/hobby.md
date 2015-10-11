@@ -12,12 +12,12 @@ header-img: "img/bg4.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="row">
-		<div class="col-md-4">
-			<h3>Table tennis</h3>
+		<div class="col-md-2">
+			<h5>Table tennis</h5>
 			<img src="/img/hobby2.png">
 		</div>
-		<div class="col-md-4">
-			<h3>Chinese chess</h3>
+		<div class="col-md-2">
+			<h5>Chinese chess</h5>
 			<img src="/img/hobby1.png">
 		</div>
 	</div>

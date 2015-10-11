@@ -45,19 +45,19 @@ header-img: "img/bg3.png"
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/img/proto3_2.png">
+						<img src="/img/proto3_2.jpeg">
 					</div>
 					<div class="col-md-6">
-						<img src="/img/proto3_1.png">
+						<img src="/img/proto3_1.jpeg">
 					</div>
 				</div>
 				<br>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/img/proto3_4.png">
+						<img src="/img/proto3_4.jpeg">
 					</div>
 					<div class="col-md-6">
-						<img src="/img/proto3_3.png">
+						<img src="/img/proto3_3.jpeg">
 					</div>
 				</div>
 			</div>
