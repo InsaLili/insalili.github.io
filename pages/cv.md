@@ -7,6 +7,7 @@ permalink: /cv/
 <div class="home">
 	<div class="section">
 		<h3>Profile</h3>
+			<p>I'm a PhD student in the department of Computer Science at the University of INSA-Lyon, supervised by Audrey Serna, Aurélien Tabard and Sébastien George. I'm affiliated with laboratory LIRIS and CNRS. My PhD subject is supporting design of collaborative learning activities in multi-surface environment, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
