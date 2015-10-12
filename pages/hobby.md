@@ -6,15 +6,15 @@ header-img: "img/bg4.png"
 
 ---
 <div class="home row">
-	<p></p>
+	<p>I have a wide range but not proficient interests. I like swimming, I go to swimming pool frequently, for both interest and health. I'm a person who can't live without music. I can also play a little instruments, such as keyboard, bamboo flute and harmonica. After I started pursuing my PhD in France, I falled in love with cooking and travelling as they are two easy ways to cheer me up after a tough research day or period.</p>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<h4>Things to brag about</h4>
 	<div class="row">
 		<div class="col-md-8">
-			<p>I have two main very Chinese hobbies, table tennis and Chinese chess. I played ping-pong when I was quite young, and just played for fun. When I stepped into university, there were ping-pong matches every year, organized either by clubs or by university. I realized that the "skill" I had for playing ping-pong could earn me some small awards. The photo on the right side was shot after we won the second prize</p>
-			<p>I started to play Chniese chess also when I was quite young. My whole family could play Chniese chess, and my father is the best. I learned chess by watching him played. I attended the Chinese chess match in my university in 2010, won the third place. Then I represented my university to attend the match in Jilin province and won the fifth place.</p>
+			<p>I also have two very Chinese hobbies, table tennis and Chinese chess. I started to play table tennis when I was quite young, and just played for fun. In Jilin university there are table tennis competitions each year organized either by club or by university. To be honestly I'm not really good at it, thanks to my good luck and great teammates, my unskilled playing could always earn me some small awards. The photo on the right side was shot after a university competition in 2012. We represented our department won the second place.</p>
+			<p>Playing Chinese chess is a tradition in my family, it's like a casual game to kill time. I learned it by watching my father played when I was quite young. I attended the Chinese chess competition in my university in 2010, won the third place. Then I represented my university to attend the competition in Jilin province and won the first place of team and the fifth place of individual.</p>
 		</div>	
 		<div class="col-md-2">
 			<h5>Table tennis</h5>

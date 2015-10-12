@@ -6,7 +6,7 @@ header-img: "img/bg3.png"
 ---
 
 <div class="home">
-	<p>I contacted with the domain of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I learned in my master school was more dealing with hardware, and programming basic C codes directly into chips. HCI was a bran-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose, and bring these thoughts to prototypes.</p>
+	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I learned in my master school was more dealing with hardware, and programming basic C codes directly into chips. HCI was a bran-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose, and bring these thoughts into prototypes.</p>
 	<p>After digged in both literature and technical aspect, I developed two immature prototypes.</p>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
