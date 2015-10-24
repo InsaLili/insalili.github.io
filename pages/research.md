@@ -6,7 +6,7 @@ header-img: "img/bg3.png"
 ---
 
 <div class="home">
-	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I learned in my master school was more dealing with hardware, and programming basic C codes directly into chips. HCI was a bran-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose, and bring these thoughts into prototypes.</p>
+	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I did in my master school was more dealing with hardware, and programming C codes directly into chips. HCI was a bran-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose.</p>
 	<p>After digged in both literature and technical aspect, I developed two immature prototypes.</p>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -19,6 +19,9 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
+				<p>This is the first prototype I designed during my PhD study. It is a simple web-based game on a multi-touch surface whose world can be dynamically contructed. User can touch the surface to control a little player to jump and run from one device to another to collect stars. To see how it works, pleach check the <a target="_blank" href="https://youtu.be/A-14eEVYPoM">video</a> here.</p>
+				<p>For more information of this work, <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">see here</a></p>
+				<p>Codes are <a href="">here</a>.</p>
 			</div>
 		</div>
 	</div>
