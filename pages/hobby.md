@@ -13,7 +13,7 @@ header-img: "img/bg4.png"
 	<h4>Things to brag about</h4>
 	<div class="row">
 		<div class="col-md-8">
-			<p>I also have two very Chinese hobbies, table tennis and Chinese chess. I started to play table tennis when I was quite young, and just played for fun. In Jilin university there are table tennis competitions each year organized either by club or by university. To be honestly I'm not really good at it, thanks to my good luck and great teammates, my unskilled playing could always earn me some small awards. The photo on the right side was shot after a university competition in 2012. We represented our department won the second place.</p>
+			<p>I also have two very Chinese hobbies, table tennis and Chinese chess. I started to play table tennis when I was quite young, and just played for fun. In Jilin University there are table tennis competitions each year organized either by club or by university. To be honestly I'm not really good at it. Thanks to my good lucks and great teammates, my unskilled playing could always earn me some small awards. The photo on the left side was shot after a university competition in 2012. We represented our department won the second place.</p>
 			<p>Playing Chinese chess is a tradition in my family, it's like a casual game to kill time. I learned it by watching my father played when I was a little girl. I attended the Chinese chess competition in my university in 2010, won the third place. Then I represented my university to attend the competition in Jilin province and won the first place of team and the fifth place of individual.</p>
 		</div>	
 		<div class="col-md-2">
