@@ -12,7 +12,7 @@ header-img: "img/bg3.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
-		<h4>An infrastructure that allows dynamic reconfiguration of the interactive space</h4>
+		<h4>An infrastructure that allows dynamic reconfiguration of the interactive spaces</h4>
 		<div class="row">
 			<div class="col-md-6">
 				<img src="/img/proto.png">
@@ -29,7 +29,22 @@ header-img: "img/bg3.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
-		<h4>Cross-device application for decision-making</h4>
+		<h4>A learning activity designed for high school students</h4>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="/img/proto1.png">
+			</div>
+			<div class="col-md-6">
+				<h5>Description:</h5>
+				Coming soon...
+			</div>
+		</div>
+	</div>
+	<div>
+		<hr class="styled-hr" style="width:100%;">
+	</div>
+	<div class="section">
+		<h4>A trip planning activity</h4>
 		<div class="row">
 			<div class="col-md-6">
 				<img src="/img/proto2.png">
