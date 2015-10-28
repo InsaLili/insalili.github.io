@@ -19,9 +19,9 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>This is the first prototype I designed during my PhD study. It is a simple web-based game on a multi-touch surface whose world can be dynamically contructed. User can touch the surface to control a little player to jump and run from one device to another to collect stars. To see how it works, pleach check the <a target="_blank" href="https://youtu.be/A-14eEVYPoM">video</a> here.</p>
+				<p>This is the first prototype I designed during my PhD study. It's a infrastructure which allows the dynamic reconfiguration of interactive space by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices. To see how it works, pleach check the <a target="_blank" href="https://youtu.be/A-14eEVYPoM">video</a> here.</p>
 				<p>For more information of this work, <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">see here</a></p>
-				<p>Codes are <a href="">here</a>.</p>
+				<p>Check the codes on github <a href="">here</a>.</p>
 			</div>
 		</div>
 	</div>
@@ -36,6 +36,7 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
+				Coming soon...
 			</div>
 		</div>
 	</div>
@@ -67,6 +68,7 @@ header-img: "img/bg3.png"
 			
 			<div class="col-md-6">
 				<h5>Description:</h5>
+				Coming soon...
 			</div>
 		</div>
 	</div>
