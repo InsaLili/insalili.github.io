@@ -6,8 +6,8 @@ header-img: "img/bg3.png"
 ---
 
 <div class="home">
-	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I did in my master school was more dealing with hardware, and programming C codes directly into chips. HCI was a bran-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose.</p>
-	<p>After digged in both literature and technical aspect, I developed two immature prototypes.</p>
+	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I did in my master school was more dealing with hardware, and programming codes into chips. HCI was a brand-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose.</p>
+	<p>After digged in both literature and technical aspect, I developed two prototypes.</p>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
@@ -29,29 +29,30 @@ header-img: "img/bg3.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
-		<h4>A learning activity designed for high school students</h4>
+		<h4>Cross-device collaborative decision-making applications</h4>
 		<div class="row">
 			<div class="col-md-6">
 				<img src="/img/proto1.png">
-			</div>
-			<div class="col-md-6">
-				<h5>Description:</h5>
-				Coming soon...
-			</div>
-		</div>
-	</div>
-	<div>
-		<hr class="styled-hr" style="width:100%;">
-	</div>
-	<div class="section">
-		<h4>A trip planning activity</h4>
-		<div class="row">
-			<div class="col-md-6">
+				<br>
+				<br>
+				<br>
 				<img src="/img/proto2.png">
+				<br>
+				<br>
+				<br>
+				<img src="/img/proto2_1.png">
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				Coming soon...
+				<p class="hightName">A learning activity designed for high school students</p>
+				<p>The figure on top left is a learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
+				<p>To achieve their mission, they need to use the combination of large interactive display with personal tablets for each one of them. The shared display is used for supporting collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to press their own avatar inside the pop-up box of the marker. We set three steps for this activity, including individual browsing, collaborative discussion and collective decision-making.</p>
+				<p class="hightName">A trip planning activity</p>
+				<p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to spend on in NY; 2) which hotel they want to live in; and 3) which places they would like to visit.</p>
+				<p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. However, in this activity, we don't set clear rules for this activity, users would have more freedom to finish it in their own way.</p>
+				<p class="hightName">A comparison study</p>
+				<p>We conducted two experiments using these two activities. For each experiment, we used to different experimental set-ups, a 55-inch vertical display vs. a 27-inch horizontal display, as the figure shown on the buttom left. We would like to study users' behaviours in this multi-surface environment, concern with different tasks, <b>a controlled one</b> vs. <b>an open-end one with more freedoms</b> ; with different physical set-ups, <b>a vertical condition</b> vs. <b>a horizontal condition</b>. We would like to see how there two aspects impact users' interaction and collaboration.</p>
+				<p>We got fruitful results from these two experiments, and submitted our paper to a top tier conference.</p>
 			</div>
 		</div>
 	</div>
@@ -64,26 +65,18 @@ header-img: "img/bg3.png"
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/img/proto3_2.jpeg">
-					</div>
-					<div class="col-md-6">
-						<img src="/img/proto3_1.jpeg">
-					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-md-6">
 						<img src="/img/proto3_4.jpeg">
 					</div>
 					<div class="col-md-6">
 						<img src="/img/proto3_3.jpeg">
 					</div>
 				</div>
+				<br>
 			</div>
-			
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				Coming soon...
+				<p>This is part of the work for my master thesis which the title is <b><i>"PMSM motor controller software and hardware system design based on TC1767"</i></b>. TC1767 is a high-performance 32-bit micro-controller from Infineon designed for automotive applications. In this work, we built a model for the permanent magnet synchronous motor (PMSM) drive system under the Matlab/Simulink environment, designed the hardware system using TC1767, and tested our PMSM vector control model on it. We proved that our model and hardware system worked well for motor drive control.</p>
+				<p>The figures on left are the peripheral test circuit I designed for our experiment.</p>
 			</div>
 		</div>
 	</div>

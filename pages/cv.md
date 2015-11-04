@@ -1,6 +1,6 @@
 ---
 layout: page
-header-img: "img/bg2.png"
+header-img: "img/bg2_1.png"
 title: CURRICULUM VITAE
 permalink: /cv/
 ---

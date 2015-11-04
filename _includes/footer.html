@@ -5,17 +5,15 @@
     <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
 
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">Email me</a></li>
-        </ul>
+      <div class="footer-col">
+        {{ site.title }}
+      </div>
+      <div class="footer-col">
+        <a href="mailto:{{ site.email }}">Email me</a>
       </div>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
+      <div class="footer-col">
           {% if site.github_username %}
-          <li>
             <a href="https://github.com/{{ site.github_username }}">
               <span class="icon  icon--github">
                 <svg viewBox="0 0 16 16">
@@ -25,11 +23,11 @@
 
               <span class="username">{{ site.github_username }}</span>
             </a>
-          </li>
           {% endif %}
-
+        </ul>
+      </div>      
+      <div class="footer-col">
           {% if site.twitter_username %}
-          <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
               <span class="icon  icon--twitter">
                 <svg viewBox="0 0 16 16">
@@ -40,9 +38,8 @@
 
               <span class="username">{{ site.twitter_username }}</span>
             </a>
-          </li>
           {% endif %}
-        </ul>
+
       </div>
 
       <!-- <div class="footer-col  footer-col-3"> -->
