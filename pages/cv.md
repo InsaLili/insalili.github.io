@@ -56,7 +56,7 @@ permalink: /cv/
 	  <h3>Presentation</h3>
 	  <ul>
 		  <li>Present all the paper as the first author.</li>
-		  <li>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning. <i>Dans 27ème conférence francophone sur l'Interaction Homme-Machine.</i>, Oct 2015, Toulouse, France. ACM, IHM-2015. Doctroal symposium.</li>
+		  <li>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning. <i>Dans 27ème conférence francophone sur l'Interaction Homme-Machine</i>, Oct 2015, Toulouse, France. ACM, IHM-2015. Doctroal symposium.</li>
 		</ul>
 	</div>
 	<div>
