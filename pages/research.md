@@ -15,8 +15,8 @@ header-img: "img/bg3.png"
 		<h4>Study of F-formations and collaboration dynamics in a mobile learning game</h4>
 		<div class="row">
 			<div class="col-md-6">
-<!-- 				<img src="/img/proto1.png">
-				<br>
+				<img src="/img/proto4_1.png">
+<!-- 				<br>
 				<br>
 				<br>
 				<img src="/img/proto2.png">
