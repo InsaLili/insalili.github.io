@@ -11,7 +11,31 @@ header-img: "img/bg3.png"
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
-		<div class="section">
+	<div class="section">
+		<h4>Study of F-formations and collaboration dynamics in a mobile learning game</h4>
+		<div class="row">
+			<div class="col-md-6">
+<!-- 				<img src="/img/proto1.png">
+				<br>
+				<br>
+				<br>
+				<img src="/img/proto2.png">
+				<br>
+				<br>
+				<br>
+				<img src="/img/proto2_1.png"> -->
+			</div>
+			<div class="col-md-6">
+				<h5>Description:</h5>
+				<p>In this study, we designed and tested an orienteering mobile learning game to better understand how device use shaped collaboration in highly mobile conditions. The study involved four groups of three students all equipped with tablets. We focused our analysis on the relationship between participants’ arrangements (F-formations), their device usage and coordination mechanisms (i.e. awareness, regulation, information sharing, and discussion). Our results emphasize the importance of considering the transitions between arrangements more than F-formations per se. We discuss the implications of these findings for the design and analysis of mobile collaborative activities.</p>
+				<p>For more details of this study, welcome to check our paper here (to be updated).</p>
+			</div>
+		</div>
+	</div>
+	<div>
+		<hr class="styled-hr" style="width:100%;">
+	</div>
+	<div class="section">
 		<h4>Cross-device collaborative decision-making applications</h4>
 		<div class="row">
 			<div class="col-md-6">
@@ -35,7 +59,7 @@ header-img: "img/bg3.png"
 				<p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. However, in this activity, we don't set clear rules for this activity, users have more freedom to finish it in their own way.</p>
 				<p class="hightName">A comparison study</p>
 				<p>We conducted two experiments using these two activities. For each experiment, we used to different experimental set-ups, a 55-inch vertical display vs. a 27-inch horizontal display, as the figure shown on the buttom left. We would like to study users' behaviours in this multi-surface environment, concern with different tasks, <b>a controlled one</b> vs. <b>an open-end one</b> ; with different physical set-ups, <b>a vertical condition</b> vs. <b>a horizontal condition</b>. We would like to see how there two aspects impact users' interaction and collaboration.</p>
-				<p>We got fruitful results from these two experiments. We are currently preparing an paper for ISS 2016 (former ITS) conference.</p>
+				<p>We got fruitful results from these two experiments. We are currently preparing a paper for ISS (former ITS) conference.</p>
 			</div>
 		</div>
 	</div>
@@ -50,7 +74,7 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>This is the first prototype I designed during my PhD study. It's an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices. To see how it works, please check the <a target="_blank" href="https://youtu.be/A-14eEVYPoM">video</a> here.</p>
+				<p>It is an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices to collect stars. To see how it works, please check the <a target="_blank" href="https://youtu.be/A-14eEVYPoM">video</a> here.</p>
 				<p>For more information of this work, <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">see here</a></p>
 				<p>Check the codes on github <a href="">here</a>.</p>
 			</div>
