@@ -1,13 +1,13 @@
 ---
 layout: page
-header-img: "img/bg2_1.png"
+header-img: "img/bg2.png"
 title: CURRICULUM VITAE
 permalink: /cv/
 ---
 <div class="home">
 	<div class="section">
 		<h3>Profile</h3>
-			<p>I'm a PhD student in the department of Computer Science at the University of INSA-Lyon, France. My surpervisors are Audrey Serna, Aurélien Tabard and Sébastien George. I'm affiliated with laboratory LIRIS and CNRS. My PhD subject is <b><i>Supporting design of collaborative activities in multi-surface environment</i></b>, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
+			<p>I'm a Ph.D student in the department of Computer Science at the University of INSA-Lyon, France. My surpervisors are Audrey Serna, Aurélien Tabard and Sébastien George. I'm affiliated with laboratory LIRIS and CNRS. My PhD subject is <b>Supporting design of collaborative activities in multi-surface environment</b>, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -16,21 +16,21 @@ permalink: /cv/
 	  <h3>Education</h3>
 		<div class="row">
 			<div class="col-md-9">
-				<h5>PhD in Computer Science (majored in HCI)</h5>
+				<h5>Ph.D in Computer Science (majored in HCI)</h5>
 			  <p>National Institute of Applied Sciences, Lyon (INSA de Lyon), France</p>
 			</div>
 			<div class="col-md-3">
-				<h5>09.2013 - Present</h5>
+				<h5>09.2013 - 03.2017 (expected)</h5>
 			</div>
 			<div class="col-md-9">
-				<h5>M.S. in Eelectrical Engineering (majored in Embedded System)</h5>
+				<h5>M.S in Eelectrical Engineering (majored in Embedded System)</h5>
 			  <p>Jilin University, China</p>
 			</div>
 			<div class="col-md-3">
 				<h5>09.2010 - 07.2013</h5>
 			</div>
 			<div class="col-md-9">
-				<h5>B.S. in Physics</h5>
+				<h5>B.S in Physics</h5>
 			  <p>Jilin University, China</p>
 			</div>
 			<div class="col-md-3">
