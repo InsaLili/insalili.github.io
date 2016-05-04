@@ -35,7 +35,7 @@ header-img: "img/bg3.png"
 				<p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. However, in this activity, we don't set clear rules for this activity, users have more freedom to finish it in their own way.</p>
 				<p class="hightName">A comparison study</p>
 				<p>We conducted two experiments using these two activities. For each experiment, we used to different experimental set-ups, a 55-inch vertical display vs. a 27-inch horizontal display, as the figure shown on the buttom left. We would like to study users' behaviours in this multi-surface environment, concern with different tasks, <b>a controlled one</b> vs. <b>an open-end one</b> ; with different physical set-ups, <b>a vertical condition</b> vs. <b>a horizontal condition</b>. We would like to see how there two aspects impact users' interaction and collaboration.</p>
-				<p>We got fruitful results from these two experiments. We are preparing an paper for ISS (former ITS) conference.</p>
+				<p>We got fruitful results from these two experiments. We are currently preparing an paper for ISS 2016 (former ITS) conference.</p>
 			</div>
 		</div>
 	</div>
