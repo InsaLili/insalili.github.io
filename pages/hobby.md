@@ -6,7 +6,7 @@ header-img: "img/bg4.png"
 
 ---
 <div class="home row">
-	<p>I have a wide range but not proficient interests. I like swimming, I go to swimming pool every week. I like music and have experience playing with instruments, including keyboard, bamboo flute and harmonica. After I started pursuing my Ph.D in France, I gain two more interests, cooking and travelling, as they are two easiest ways to cheer me up after a tough research day or period.</p>
+	<p>I have a wide range but not proficient interests. I like swimming, I go to swimming pool every week. I like music and have experience playing with instruments, including keyboard, bamboo flute and harmonica. After I started pursuing my Ph.D in France, I gained two more interests, cooking and travelling, as they are two easiest ways to cheer me up after a tough research day or period.</p>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>

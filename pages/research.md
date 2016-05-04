@@ -76,7 +76,7 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>This is part of the work for my master thesis which the title is <b><i>"PMSM motor controller software and hardware system design based on TC1767"</i></b>. TC1767 is a high-performance 32-bit micro-controller from Infineon designed for automotive applications. In this work, we built a model for the permanent magnet synchronous motor (PMSM) drive system under the Matlab/Simulink environment, designed the hardware system using TC1767, and tested our PMSM vector control model on it. We proved that our model and hardware system worked well for motor drive control.</p>
+				<p>This is part of the work for my master thesis which the title is <b>"PMSM motor controller software and hardware system design based on TC1767"</b>. TC1767 is a high-performance 32-bit micro-controller from Infineon designed for automotive applications. In this work, we built a model for the permanent magnet synchronous motor (PMSM) drive system under the Matlab/Simulink environment, designed the hardware system using TC1767, and tested our PMSM vector control model on it. We proved that our model and hardware system worked well for motor drive control.</p>
 				<p>The figures on left are the peripheral test circuit I designed for our experiment.</p>
 			</div>
 		</div>
