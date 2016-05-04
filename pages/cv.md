@@ -44,9 +44,9 @@ permalink: /cv/
 	<div class="section">
 	  <h3>Publications</h3>
 	  <ul>
-		  <li>Lili Tong, Audrey Serna, Simon Pageaud, Sébastien George and Aurélien Tabard. 2016. <i>It’s not how you stand, it’s how you move: F-formations and collaboration dynamics in a mobile learning game.</i> In Proceedings of the 18th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI '16). ACM, New York, NY, USA. (accepted)</li>
-		  <li>Lili Tong, Audrey Serna, Sébastien George, Aurélien Tabard, and Gilles Brochet. 2014. <i>Interactive Surface Composition Based on Arduino in Multi-Display Environments.</i> In Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces (ITS '14). ACM, New York, NY, USA, 369-374. DOI=http://dx.doi.org/10.1145/2669485.2669548</li>
-	  	<li>Lili Tong. <i>Toward rapid prototyping tools for designing collaborative learning activities on tabletops.</i> Dans Rencontres Jeunes Chercheurs - Environnements informatiques pour l'apprentissage humain (RJC-EIAH), La Rochelle. pp. 75-80. 2014</li>
+		  <li>Lili Tong, Audrey Serna, Simon Pageaud, Sébastien George and Aurélien Tabard. 2016. It’s not how you stand, it’s how you move: F-formations and collaboration dynamics in a mobile learning game. <i>In Proceedings of the 18th International Conference on Human Computer Interaction with Mobile Devices and Services</i> (MobileHCI '16). ACM, New York, NY, USA. (accepted)</li>
+		  <li>Lili Tong, Audrey Serna, Sébastien George, Aurélien Tabard, and Gilles Brochet. 2014. Interactive Surface Composition Based on Arduino in Multi-Display Environments. <i>In Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces</i> (ITS '14). ACM, New York, NY, USA, 369-374. DOI=http://dx.doi.org/10.1145/2669485.2669548</li>
+	  	<li>Lili Tong. Toward rapid prototyping tools for designing collaborative learning activities on tabletops. <i>Dans Rencontres Jeunes Chercheurs - Environnements informatiques pour l'apprentissage humain</i> (RJC-EIAH), La Rochelle. pp. 75-80. 2014</li>
 		</ul>
 	</div>
 	<div>
@@ -56,7 +56,7 @@ permalink: /cv/
 	  <h3>Presentation</h3>
 	  <ul>
 		  <li>Present all the paper as the first author.</li>
-		  <li><i>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning.</i> Dans 27ème conférence francophone sur l'Interaction Homme-Machine., Oct 2015, Toulouse, France. ACM, IHM-2015. Doctroal symposium.</li>
+		  <li>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning. <i>Dans 27ème conférence francophone sur l'Interaction Homme-Machine.</i>, Oct 2015, Toulouse, France. ACM, IHM-2015. Doctroal symposium.</li>
 		</ul>
 	</div>
 	<div>
