@@ -6,8 +6,39 @@ header-img: "img/bg3.png"
 ---
 
 <div class="home">
-	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I did in my master school was more dealing with hardware, and programming codes into chips. HCI was a brand-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose.</p>
-	<p>After digged in both literature and technical aspect, I developed two prototypes.</p>
+<!-- 	<p>I contacted with the area of human computer interaction(HCI) when I just started my PhD. Before that, I would rather take myself as an electronics engineer, as what I did in my master school was more dealing with hardware, and programming codes into chips. HCI was a brand-new and attractive field to me. I started to think about how to take advantages of interactive surfaces, such as wall displays, tabletops, tablets and mobile phones, to facilitate our lives, especially for learning purpose.</p>
+	<p>After digged in both literature and technical aspect, I developed two prototypes.</p> -->
+	<div>
+		<hr class="styled-hr" style="width:100%;">
+	</div>
+		<div class="section">
+		<h4>Cross-device collaborative decision-making applications</h4>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="/img/proto1.png">
+				<br>
+				<br>
+				<br>
+				<img src="/img/proto2.png">
+				<br>
+				<br>
+				<br>
+				<img src="/img/proto2_1.png">
+			</div>
+			<div class="col-md-6">
+				<h5>Description:</h5>
+				<p class="hightName">A learning activity designed for high school students</p>
+				<p>The figure on top left is a learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
+				<p>To achieve their mission, they need to use the combination of large interactive display with personal tablets. The shared display is used for supporting collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to press their own avatar inside the pop-up box of the marker. We set three steps for this activity, including individual browsing, collaborative discussion and collective decision-making.</p>
+				<p class="hightName">A trip planning activity</p>
+				<p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to stay in NY; 2) which hotel they want to live in; and 3) which places they would like to visit.</p>
+				<p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. However, in this activity, we don't set clear rules for this activity, users have more freedom to finish it in their own way.</p>
+				<p class="hightName">A comparison study</p>
+				<p>We conducted two experiments using these two activities. For each experiment, we used to different experimental set-ups, a 55-inch vertical display vs. a 27-inch horizontal display, as the figure shown on the buttom left. We would like to study users' behaviours in this multi-surface environment, concern with different tasks, <b>a controlled one</b> vs. <b>an open-end one</b> ; with different physical set-ups, <b>a vertical condition</b> vs. <b>a horizontal condition</b>. We would like to see how there two aspects impact users' interaction and collaboration.</p>
+				<p>We got fruitful results from these two experiments. We are preparing an paper for ISS (former ITS) conference.</p>
+			</div>
+		</div>
+	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
@@ -28,37 +59,7 @@ header-img: "img/bg3.png"
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
-	<div class="section">
-		<h4>Cross-device collaborative decision-making applications</h4>
-		<div class="row">
-			<div class="col-md-6">
-				<img src="/img/proto1.png">
-				<br>
-				<br>
-				<br>
-				<img src="/img/proto2.png">
-				<br>
-				<br>
-				<br>
-				<img src="/img/proto2_1.png">
-			</div>
-			<div class="col-md-6">
-				<h5>Description:</h5>
-				<p class="hightName">A learning activity designed for high school students</p>
-				<p>The figure on top left is a learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
-				<p>To achieve their mission, they need to use the combination of large interactive display with personal tablets for each one of them. The shared display is used for supporting collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to press their own avatar inside the pop-up box of the marker. We set three steps for this activity, including individual browsing, collaborative discussion and collective decision-making.</p>
-				<p class="hightName">A trip planning activity</p>
-				<p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to spend on in NY; 2) which hotel they want to live in; and 3) which places they would like to visit.</p>
-				<p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. However, in this activity, we don't set clear rules for this activity, users would have more freedom to finish it in their own way.</p>
-				<p class="hightName">A comparison study</p>
-				<p>We conducted two experiments using these two activities. For each experiment, we used to different experimental set-ups, a 55-inch vertical display vs. a 27-inch horizontal display, as the figure shown on the buttom left. We would like to study users' behaviours in this multi-surface environment, concern with different tasks, <b>a controlled one</b> vs. <b>an open-end one with more freedoms</b> ; with different physical set-ups, <b>a vertical condition</b> vs. <b>a horizontal condition</b>. We would like to see how there two aspects impact users' interaction and collaboration.</p>
-				<p>We got fruitful results from these two experiments, and submitted our paper to a top tier conference.</p>
-			</div>
-		</div>
-	</div>
-	<div>
-		<hr class="styled-hr" style="width:100%;">
-	</div>
+
 	<div class="section">
 		<h4>Former work</h4>
 		<div class="row">

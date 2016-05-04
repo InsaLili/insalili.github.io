@@ -7,7 +7,7 @@ permalink: /cv/
 <div class="home">
 	<div class="section">
 		<h3>Profile</h3>
-			<p>I'm a PhD student in the department of Computer Science at the University of INSA-Lyon, France. My surpervisors are Audrey Serna and Sébastien George. I also work with Aurélien Tabard. I'm affiliated with laboratory LIRIS and CNRS. My PhD subject is <b><i>Supporting design of collaborative activities in multi-surface environment</i></b>, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
+			<p>I'm a PhD student in the department of Computer Science at the University of INSA-Lyon, France. My surpervisors are Audrey Serna, Aurélien Tabard and Sébastien George. I'm affiliated with laboratory LIRIS and CNRS. My PhD subject is <b><i>Supporting design of collaborative activities in multi-surface environment</i></b>, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -23,14 +23,14 @@ permalink: /cv/
 				<h5>09.2013 - Present</h5>
 			</div>
 			<div class="col-md-9">
-				<h5>MSc in Eelectrical Engineering (majored in Embedded System)</h5>
+				<h5>M.S. in Eelectrical Engineering (majored in Embedded System)</h5>
 			  <p>Jilin University, China</p>
 			</div>
 			<div class="col-md-3">
 				<h5>09.2010 - 07.2013</h5>
 			</div>
 			<div class="col-md-9">
-				<h5>BSc in Physics</h5>
+				<h5>B.S. in Physics</h5>
 			  <p>Jilin University, China</p>
 			</div>
 			<div class="col-md-3">
@@ -44,6 +44,7 @@ permalink: /cv/
 	<div class="section">
 	  <h3>Publications</h3>
 	  <ul>
+		  <li>Lili Tong, Audrey Serna, Simon Pageaud, Sébastien George and Aurélien Tabard. 2016. It’s not how you stand, it’s how you move: F-formations and collaboration dynamics in a mobile learning game. In Proceedings of the 18th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI '16). ACM, New York, NY, USA. (accepted)</li>
 		  <li>Lili Tong, Audrey Serna, Sébastien George, Aurélien Tabard, and Gilles Brochet. 2014. Interactive Surface Composition Based on Arduino in Multi-Display Environments. In Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces (ITS '14). ACM, New York, NY, USA, 369-374. DOI=http://dx.doi.org/10.1145/2669485.2669548</li>
 	  	<li>Toward rapid prototyping tools for designing collaborative learning activities on tabletops. L.Tong. Dans RJC EIAH, La Rochelle. pp. 75-80. 2014</li>
 		</ul>
