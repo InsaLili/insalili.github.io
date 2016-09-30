@@ -56,8 +56,8 @@ permalink: /cv/
 	<div class="section">
 	  <h3>Presentation</h3>
 	  <ul>
-		  <li>Present all the papers as the first author.</li>
 		  <li>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning. <i>Dans 27ème conférence francophone sur l'Interaction Homme-Machine</i>, Oct 2015, Toulouse, France. ACM, IHM-2015. Doctroal symposium.</li>
+		  <li>Present all the papers as the first author.</li>
 		</ul>
 	</div>
 	<div>
