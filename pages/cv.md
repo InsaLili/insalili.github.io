@@ -81,6 +81,6 @@ permalink: /cv/
 	</div>
 	<div class="section">
 	  <h3>Service</h3>
-	  <p>Conference Student Volunteer for ACM ITS 2014
+	  <p>Conference Student Volunteer for ACM ITS 2014<p>
 	</div>
 </div>
