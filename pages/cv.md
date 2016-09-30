@@ -47,19 +47,20 @@ permalink: /cv/
 		  <li><b>Lili Tong</b>, Audrey Serna, Simon Pageaud, Sébastien George and Aurélien Tabard. 2016. It’s not how you stand, it’s how you move: F-formations and collaboration dynamics in a mobile learning game. In <i>Proceedings of the 18th International Conference on Human Computer Interaction with Mobile Devices and Services</i> (MobileHCI '16). ACM, New York, NY, USA, 318-329. DOI: <a href="http://dx.doi.org/10.1145/2935334.2935343">http://dx.doi.org/10.1145/2935334.2935343</a></li>
 		  <li>Audrey Serna, <b>Lili Tong</b>, Aurélien Tabard, Simon Pageaud, and Sébastien George. 2016. F-formations and collaboration dynamics study for designing mobile collocation. In <i>Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct</i> (MobileHCI '16). ACM, New York, NY, USA, 1138-1141. DOI: <a href="http://dx.doi.org/10.1145/2957265.2962656">http://dx.doi.org/10.1145/2957265.2962656</a></li>
 		  <li><b>Lili Tong</b>, Audrey Serna, Sébastien George, Aurélien Tabard, and Gilles Brochet. 2014. Interactive Surface Composition Based on Arduino in Multi-Display Environments. <i>In Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces</i> (ITS '14). ACM, New York, NY, USA, 369-374. DOI: <a href="http://dx.doi.org/10.1145/2669485.2669548">http://dx.doi.org/10.1145/2669485.2669548</a></li>
+		  <li>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning. <i>Dans 27ème conférence francophone sur l'Interaction Homme-Machine</i> (IHM '15), ACM. Oct 2015, Toulouse, France. 4 pages. Doctroal symposium.</li>
 	  	<li><b>Lili Tong</b>. Toward rapid prototyping tools for designing collaborative learning activities on tabletops. <i>Dans Rencontres Jeunes Chercheurs - Environnements informatiques pour l'apprentissage humain</i> (RJC-EIAH), La Rochelle. pp. 75-80. 2014</li>
 		</ul>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
-	<div class="section">
+<!-- 	<div class="section">
 	  <h3>Presentation</h3>
 	  <ul>
-		  <li>Supporting Design of Interaction in Multi-surface Environments for Collaborative Learning. <i>Dans 27ème conférence francophone sur l'Interaction Homme-Machine</i>, Oct 2015, Toulouse, France. ACM, IHM-2015. Doctroal symposium.</li>
+
 		  <li>Present all the papers as the first author.</li>
 		</ul>
-	</div>
+	</div> -->
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
