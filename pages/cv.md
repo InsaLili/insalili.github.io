@@ -7,7 +7,7 @@ permalink: /cv/
 <div class="home">
 	<div class="section">
 		<h3>Profile</h3>
-			<p>I am a Ph.D student in the department of Computer Science at the University of INSA-Lyon, France. My surpervisors are Audrey Serna, <a href="http://www.tabard.fr/" target="_blank">Aurélien Tabard</a> and <a href="http://perso.univ-lemans.fr/~sgeorge/index.html" target="_blank">Sébastien George</a>. I'm affiliated with laboratory LIRIS and CNRS. My Ph.D subject is <b>Supporting design of collaborative activities in multi-surface environment</b>, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
+			<p>I am a Ph.D. student in the department of Computer Science at the University of INSA-Lyon, France. My supervisors are Audrey Serna, <a href="http://www.tabard.fr/" target="_blank">Aurélien Tabard</a> and <a href="http://perso.univ-lemans.fr/~sgeorge/index.html" target="_blank">Sébastien George</a>. I'm affiliated with laboratory LIRIS and CNRS. My Ph.D. subject is <b>Supporting design of collaborative activities in multi-surface environment</b>, which is in the fields of Human Computer Interaction and Computer Supported Collaborative Learning. </p>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -16,14 +16,14 @@ permalink: /cv/
 	  <h3>Education</h3>
 		<div class="row">
 			<div class="col-md-9">
-				<h5>Ph.D in Computer Science (majored in HCI)</h5>
+				<h5>Ph.D. in Computer Science (majored in HCI)</h5>
 			  <p>National Institute of Applied Sciences, Lyon (INSA de Lyon), France</p>
 			</div>
 			<div class="col-md-3">
 				<h5>09.2013 - 03.2017 (expected)</h5>
 			</div>
 			<div class="col-md-9">
-				<h5>M.S in Eelectrical Engineering (majored in Embedded System)</h5>
+				<h5>M.S in Electrical Engineering (majored in Embedded System)</h5>
 			  <p>Jilin University, China</p>
 			</div>
 			<div class="col-md-3">
@@ -67,12 +67,12 @@ permalink: /cv/
 	<div class="section">
 	  <h3>Skills</h3>
 	  <ul>
-  		<li><h5>Progarmming</h5></li>
+  		<li><h5>Programming</h5></li>
   		HTML5, CSS, Javascript, NodeJS, Java, C/C++, Python(limited)
   		<li><h5>Electronics</h5></li>
   		ARM core chip STM32 and STM8, Arduino, Circuit design and PCB design (Altium Designer)
   		<li><h5>Research</h5></li>
-  		Interaction design, User experience design, Quantitative & Qualitative experiments & analyses
+  		Interaction design, User experience design, Quantitative & Qualitative experiments & analysis
   		<li><h5>Language</h5></li>
   		English; French(Conversational); Chinese(Native)
   	</ul>
