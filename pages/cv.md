@@ -85,4 +85,3 @@ permalink: /cv/
 	  <h3>Service</h3>
 	  <p>Conference Student Volunteer for ACM ITS 2014</p>
 	</div>
-</div>
