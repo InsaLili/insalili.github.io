@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RESEARCH
+title: PROJECTS
 permalink: /research/
 header-img: "img/bg3.png"
 ---
