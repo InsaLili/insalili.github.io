@@ -16,15 +16,15 @@ permalink: /cv/
 	  <h3>Education</h3>
 		<div class="row">
 			<div class="col-md-9">
-				<h5>Ph.D. in Computer Science (majored in HCI)</h5>
+				<h5>Ph.D. in Computer Science (Human-computer Interaction)</h5>
 			  <p>National Institute of Applied Sciences, Lyon (INSA de Lyon), France</p>
 			</div>
 			<div class="col-md-3">
-				<h5>09.2013 - 03.2017 (expected)</h5>
+				<h5>09.2013 - 05.2017</h5>
 			</div>
 			<div class="col-md-9">
-				<h5>M.S in Electrical Engineering (majored in Embedded System)</h5>
-			  <p>Jilin University, China</p>
+				<h5>M.S in Electrical Engineering (Embedded System)</h5>
+			  <p>Jilin University, China. (Graduation with distinction) </p>
 			</div>
 			<div class="col-md-3">
 				<h5>09.2010 - 07.2013</h5>
@@ -69,13 +69,15 @@ permalink: /cv/
 	  <h3>Skills</h3>
 	  <ul>
   		<li><h5>Programming</h5></li>
-  		HTML5, CSS, Javascript, NodeJS, Java, C/C++, Python(limited)
+  		HTML5, CSS, Javascript, NodeJS, C/C++, Java (limited)
+  		<li><h5>Design tools</h5></li>
+  		Balsamiq Mockups, paper prototyping, storyboarding, Sketch, Axure, InVision
+  		<li><h5>User research</h5></li>
+  		Behavioral analysis, Quantitative & Qualitative experiments & analysis, Usability testing, A/B testing
   		<li><h5>Electronics</h5></li>
-  		ARM core chip STM32 and STM8, Arduino, Circuit design and PCB design (Altium Designer)
-  		<li><h5>Research</h5></li>
-  		Interaction design, User experience design, Quantitative & Qualitative experiments & analysis
+  		ARM core chip STM32 and STM8, Arduino, Circuit design and PCB design
   		<li><h5>Language</h5></li>
-  		English; French(Conversational); Chinese(Native)
+  		English (proficient); French (Conversational); Chinese (Native)
   	</ul>
 	</div>
 	<div>
