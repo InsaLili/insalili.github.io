@@ -12,18 +12,10 @@ header-img: "img/bg3.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 		<div class="section">
-		<h4>Pickit</h4>
+		<h4>Pickit: a decision-making activity for high school students</h4>
 		<div class="row">
 			<div class="col-md-6">
-				<img src="/img/proto1.png">
-				<br>
-				<br>
-				<br>
-				<img src="/img/proto2.png">
-				<br>
-				<br>
-				<br>
-				<img src="/img/proto2_1.png">
+				<img src="/img/pickit-app.png">
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>

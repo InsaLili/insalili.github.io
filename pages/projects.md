@@ -10,6 +10,34 @@ header-img: "img/bg3.png"
 	<p>After digged in both literature and technical aspect, I developed two prototypes.</p> -->
 	<div>
 		<hr class="styled-hr" style="width:100%;">
+	</div>	    
+  <div class="section">
+    <h4><b>Pickit</b>: a decision-making application for high school students</h4>
+    <div class="row">
+      <div class="col-md-6">
+         <img src="img/pickit/pickit-app.png" width="100%">
+      </div>
+      <div class="class-md-6">
+         <img src="img/pickit/study.jpg" width="40%">
+      </div>
+      <div class="col-md-12">
+        <h5>Description:</h5>
+        <p><b>Pickit</b> is a decision-making learning application I designed and developed for high school students. Students use the combination of a large interactive display with tablet to perform the activity. The shared display shows the decision-making context. Tablets are used for analysing data of each option, sumbitting comments and providing evaluation. Students can get the information of each option on their tablets by using the shared display.</p>
+        <p>For more details of this study, welcome to check our paper <a target="_blank" href="http://dl.acm.org/citation.cfm?doid=2935334.2935343">here</a></p>
+        <p>This application also hosed on <a target="_blank" href="https://dashboard.heroku.com/apps">Heroku</a> server: <a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a> (1920x1080), <a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a>. You can get codes <a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a>.</p>
+        <h5>Design & develop methods & tools:</h5>
+        <ul>
+          <li>Interviewed and discussed with teachers to learn their requirements</li>
+          <li>Collaborated with a research team for designing UI and workflow</li>
+          <li>Developed Pickit: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices).</li>
+          <li>Applied <b>agile design</b> methodology in the design and develop process.</li>
+          <li>Conducted <b>usability tests</b> with students using <b> qualitative & quantitative analysis methods</b>.</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+	<div>
+		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
 		<h4>A mobile orienteering learning game</h4>
