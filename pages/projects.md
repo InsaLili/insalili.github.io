@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PROJECTS
-permalink: /research/
+permalink: /projects/
 header-img: "img/bg3.png"
 ---
 
