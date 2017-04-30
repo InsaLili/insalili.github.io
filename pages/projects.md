@@ -42,9 +42,9 @@ header-img: "img/bg3.png"
     <ul>
       <li>Interviewed and discussed with teachers to learn their requirements (Pickit)</li>
       <li>Collaborated with a research team for designing UI and workflow</li>
-      <li>Developed applications: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices).</li>
-      <li>Applied <b>agile design</b> methodology in the design and develop process.</li>
-      <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b>.</li>
+      <li>Developed applications: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices)</li>
+      <li>Applied <b>agile design</b> methodology in the design and develop process</li>
+      <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
   </div>
 	<div>
@@ -66,7 +66,7 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>In this study, we designed and tested an orienteering mobile learning game to better understand how device use shaped collaboration in highly mobile conditions. The study involved four groups of three students all equipped with tablets. We focused our analysis on the relationship between participants’ arrangements (F-formations), their device usage and coordination mechanisms (i.e. awareness, regulation, information sharing, and discussion). </p>
+				<p>In this study, we designed and tested an orienteering mobile learning game to better understand how device use shaped collaboration in highly mobile conditions. The study involved four groups of three students all equipped with tablets. Each students in a group was assigned with a specific role. We focused our analysis on the relationship between participants’ arrangements (F-formations), their device usage and coordination mechanisms (i.e. awareness, regulation, information sharing, and discussion). </p>
 				<p>Our results emphasize the importance of considering the transitions between arrangements more than F-formations per se. We discuss the implications of these findings for the design and analysis of mobile collaborative activities.</p>
 				<p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01363632/file/MobileHCI16-HAL.pdf">here</a></b>.</p>
 			</div>
