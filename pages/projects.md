@@ -12,37 +12,54 @@ header-img: "img/bg3.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>	    
   <div class="section">
-    <h4><b>Pickit</b>: a decision-making application for high school students</h4>
+    <h4>Cross-device collaborative applications</h4>
     <div class="row">
       <div class="col-md-6">
-         <img src="/img/pickit/pickit-app.png" width="100%">
+        <img src="img/pickit/app.png" width="100%">
+        <br>
+        <br>
+        <br>
+        <img src="img/gony/app.png" width="100%">
+        <br>
+        <br>
+        <br>
+        <img src="img/gony/study.png" width="95%">
       </div>
-      <div class="class-md-6">
-         <img src="/img/pickit/study.jpg" width="50%">
-      </div>
-      <div class="col-md-12">
-      	<h5>Description:</h5>
-        <p><b>Pickit</b> is a decision-making learning application I designed and developed for high school students. Students use the combination of a large interactive display with tablet to perform the activity. For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01493815/file/CSEDU_2017_62_CR%20%282%29.pdf">here</a></b>.</p>
-        <p>This application also hosed on <a target="_blank" href="https://dashboard.heroku.com/apps">Heroku</a> server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. You can get codes <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
-        <h5>Design & develop methods & tools:</h5>
-        <ul>
-          <li>Interviewed and discussed with teachers to learn their requirements</li>
-          <li>Collaborated with a research team for designing UI and workflow</li>
-          <li>Developed Pickit: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices).</li>
-          <li>Applied <b>agile design</b> methodology in the design and develop process.</li>
-          <li>Conducted <b>usability tests</b> with students using <b> qualitative & quantitative analysis methods</b>.</li>
-        </ul>
+      <div class="col-md-6">
+        <h5>Description:</h5>
+        <p class="hightName">Pickit: a learning activity designed for high school students</p>
+        <p>The figure on top left is a learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
+        <p>To achieve their mission, they need to use the combination of large interactive display with personal tablets. The shared display is used for supporting collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to press their own avatar inside the pop-up box of the marker. We set three steps for this activity, including individual browsing, collaborative discussion and collective decision-making.</p>
+        <p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01493815/file/CSEDU_2017_62_CR%20%282%29.pdf">here</a></b>.</p>
+        <p>This application is also hosed on Heroku server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (resolution: 1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>.</p>
+         <p>You can get codes <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
+        <p class="hightName">GoNY: a trip planning activity</p>
+        <p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to stay in NY; 2) which hotel they want to live in; and 3) which places they would like to visit.</p>
+        <p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. We conducted a study using GoNY to understand how the orientation of a large display used alongside tablets impacts collaboration (figure on the bottom left).</p>
+        <p>For more about this study, welcome to check the <b><a target="_blank" href="https://www.youtube.com/watch?v=mzs1pfae6qg">video here</a></b>. The results of this study is accepted by INTERACT conference 2017 (to be updated).</p>
+        <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>.</p>
+        <p>Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
       </div>
     </div>
-    </div>
+    <br>
+
+    <h4>General design & develop methods & tools:</h4>
+    <ul>
+      <li>Interviewed and discussed with teachers to learn their requirements</li>
+      <li>Collaborated with a research team for designing UI and workflow</li>
+      <li>Developed Pickit: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices).</li>
+      <li>Applied <b>agile design</b> methodology in the design and develop process.</li>
+      <li>Conducted <b>usability tests</b> with students using <b> qualitative & quantitative analysis methods</b>.</li>
+    </ul>
+  </div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
-		<h4>A mobile orienteering learning game</h4>
+		<h4>InsectPuzzle: a mobile orienteering learning game</h4>
 		<div class="row">
 			<div class="col-md-6">
-				<img src="/img/proto4_1.png">
+				<img src="/img/mobile/app.png">
 <!-- 				<br>
 				<br>
 				<br>
@@ -59,11 +76,11 @@ header-img: "img/bg3.png"
 			</div>
 		</div>
 	</div>
-	<div>
+<!-- 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
-		<h4>Cross-device collaborative decision-making applications</h4>
+		<h4>Cross-device collaborative applications</h4>
 		<div class="row">
 			<div class="col-md-6">
 				<img src="/img/proto1.png">
@@ -89,7 +106,7 @@ header-img: "img/bg3.png"
 				<p>We got fruitful results from these two experiments. We are currently preparing a paper for ISS (former ITS) conference.</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
