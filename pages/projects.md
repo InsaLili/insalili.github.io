@@ -21,10 +21,8 @@ header-img: "img/bg3.png"
          <img src="/img/pickit/study.jpg" width="40%">
       </div>
       <div class="col-md-12">
-        <h5>Description:</h5>
-        <p><b>Pickit</b> is a decision-making learning application I designed and developed for high school students. Students use the combination of a large interactive display with tablet to perform the activity. The shared display shows the decision-making context. Tablets are used for analysing data of each option, sumbitting comments and providing evaluation. Students can get the information of each option on their tablets by using the shared display.</p>
-        <p>For more details of this study, welcome to check our paper <a target="_blank" href="http://dl.acm.org/citation.cfm?doid=2935334.2935343">here</a></p>
-        <p>This application also hosed on <a target="_blank" href="https://dashboard.heroku.com/apps">Heroku</a> server: <a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a> (1920x1080), <a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a>. You can get codes <a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a>.</p>
+        <p><b>Pickit</b> is a decision-making learning application I designed and developed for high school students. Students use the combination of a large interactive display with tablet to perform the activity. For more details of this study, welcome to check our paper <b><a target="_blank" href="http://dl.acm.org/citation.cfm?doid=2935334.2935343">here</a></b>.</p>
+        <p>This application also hosed on <a target="_blank" href="https://dashboard.heroku.com/apps">Heroku</a> server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. You can get codes <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
         <h5>Design & develop methods & tools:</h5>
         <ul>
           <li>Interviewed and discussed with teachers to learn their requirements</li>
