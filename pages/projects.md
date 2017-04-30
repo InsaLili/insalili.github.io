@@ -71,6 +71,7 @@ header-img: "img/bg3.png"
 				<p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01363632/file/MobileHCI16-HAL.pdf">here</a></b>.</p>
 			</div>
 		</div>
+		<br>
 		<h5>General design & develop methods & tools:</h5>
     <ul>
       <li>Co-designed the game with teachers using <b>storyboarding</b> and <b>Balsamiq Mockups</b></li>
@@ -125,6 +126,7 @@ header-img: "img/bg3.png"
 				<p>For more information of this work, welcome to check our paper <b><a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">here</a></b>.</p>
 			</div>
 		</div>
+		<br>
 		<h5>Develop methods & tools:</h5>
     <ul>
       <li>Developed a device detection system using <b>Arduino</b> and magnet switches</li>
