@@ -28,10 +28,9 @@ header-img: "img/bg3.png"
       <div class="col-md-6">
         <h5>Description:</h5>
         <p class="hightName">Pickit: a learning activity designed for high school students</p>
-        <p>The figure on top left is a learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
-        <p>To achieve their mission, they need to use the combination of large interactive display with personal tablets. The shared display is used for supporting collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to press their own avatar inside the pop-up box of the marker. We set three steps for this activity, including individual browsing, collaborative discussion and collective decision-making.</p>
+        <p>The figure on top left is a learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.To achieve their mission, they need to use the combination of large interactive display with personal tablets. The shared display is used for supporting collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to press their own avatar inside the pop-up box of the marker. We set three steps for this activity, including individual browsing, collaborative discussion and collective decision-making.</p>
         <p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01493815/file/CSEDU_2017_62_CR%20%282%29.pdf">here</a></b>.</p>
-        <p>This application is also hosed on Heroku server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (resolution: 1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. You can get codes <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
+        <p>This application is also hosed on Heroku server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (resolution: 1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
         <p class="hightName">GoNY: a trip planning activity</p>
         <p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to stay in NY; 2) which hotel they want to live in; and 3) which places they would like to visit.</p>
         <p>We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. We conducted a study using GoNY to understand how the orientation of a large display used alongside tablets impacts collaboration (figure on the bottom left).</p>
@@ -39,15 +38,13 @@ header-img: "img/bg3.png"
         <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
       </div>
     </div>
-    <br>
-
     <h4>General design & develop methods & tools:</h4>
     <ul>
-      <li>Interviewed and discussed with teachers to learn their requirements</li>
+      <li>Interviewed and discussed with teachers to learn their requirements (Pickit)</li>
       <li>Collaborated with a research team for designing UI and workflow</li>
-      <li>Developed Pickit: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices).</li>
+      <li>Developed applications: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices).</li>
       <li>Applied <b>agile design</b> methodology in the design and develop process.</li>
-      <li>Conducted <b>usability tests</b> with students using <b> qualitative & quantitative analysis methods</b>.</li>
+      <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b>.</li>
     </ul>
   </div>
 	<div>
@@ -69,10 +66,17 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>In this study, we designed and tested an orienteering mobile learning game to better understand how device use shaped collaboration in highly mobile conditions. The study involved four groups of three students all equipped with tablets. We focused our analysis on the relationship between participants’ arrangements (F-formations), their device usage and coordination mechanisms (i.e. awareness, regulation, information sharing, and discussion). Our results emphasize the importance of considering the transitions between arrangements more than F-formations per se. We discuss the implications of these findings for the design and analysis of mobile collaborative activities.</p>
-				<p>For more details of this study, welcome to check our paper here (to be updated).</p>
+				<p>In this study, we designed and tested an orienteering mobile learning game to better understand how device use shaped collaboration in highly mobile conditions. The study involved four groups of three students all equipped with tablets. We focused our analysis on the relationship between participants’ arrangements (F-formations), their device usage and coordination mechanisms (i.e. awareness, regulation, information sharing, and discussion). </p>
+				<p>Our results emphasize the importance of considering the transitions between arrangements more than F-formations per se. We discuss the implications of these findings for the design and analysis of mobile collaborative activities.</p>
+				<p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01363632/file/MobileHCI16-HAL.pdf">here</a></b>.</p>
 			</div>
 		</div>
+		<h4>General design & develop methods & tools:</h4>
+    <ul>
+      <li>Co-designed the game with teachers using <b>storyboarding</b> and <b>Balsamiq Mockups</b></li>
+      <li>Managed a students developer for creating the Android application for tablets</li>
+      <li>Conducted <b>usability testing</b> with students to study how the mobile device and game design impact their collaboration and task performance using <b>qualitative & quantitative analysis methods</b></li>
+    </ul>
 	</div>
 <!-- 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -116,11 +120,17 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>It is an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices to collect stars. To see how it works, please check the <a target="_blank" href="https://youtu.be/A-14eEVYPoM">video</a> here.</p>
-				<p>For more information of this work, <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">see here</a></p>
-				<p>Check the codes on github <a href="">here</a>.</p>
+				<p>It is an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices to collect stars. To see how it works, please check the <b><a target="_blank" href="https://youtu.be/A-14eEVYPoM">video here</a></b>.</p>
+				<p>For more information of this work, welcome to check our paper <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">here</a>.</p>
+				<p>Check the codes on github <b><a href="">here</a></b>.</p>
 			</div>
 		</div>
+		<h4>Develop methods & tools:</h4>
+    <ul>
+      <li>Developed a device detection system using <b>Arduino</b> and magnet switches</li>
+      <li>Developed multi-touch and tangible interaction recognition using <b>CCV</b></li>
+      <li>Developed the application using <b>jQuery</b>, <b>TUIO</b> (multi-touch), <b>NodeJS</b>, <b>Hammer</b>, <b>Phaser</b> (game framework), and <b>Websockets</b></li>
+    </ul>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
