@@ -15,15 +15,15 @@ header-img: "img/bg3.png"
     <h4>Cross-device collaborative applications</h4>
     <div class="row">
       <div class="col-md-6">
-        <img src="img/pickit/app.png" width="100%">
+        <img src="/img/pickit/app.png" width="100%">
         <br>
         <br>
         <br>
-        <img src="img/gony/app.png" width="100%">
+        <img src="/img/gony/app.png" width="100%">
         <br>
         <br>
         <br>
-        <img src="img/gony/study.png" width="95%">
+        <img src="/img/gony/study.png" width="95%">
       </div>
       <div class="col-md-6">
         <h5>Description:</h5>
