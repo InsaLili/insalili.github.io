@@ -15,10 +15,10 @@ header-img: "img/bg3.png"
     <h4><b>Pickit</b>: a decision-making application for high school students</h4>
     <div class="row">
       <div class="col-md-6">
-         <img src="img/pickit/pickit-app.png" width="100%">
+         <img src="/img/pickit/pickit-app.png" width="100%">
       </div>
       <div class="class-md-6">
-         <img src="img/pickit/study.jpg" width="40%">
+         <img src="/img/pickit/study.jpg" width="40%">
       </div>
       <div class="col-md-12">
         <h5>Description:</h5>
