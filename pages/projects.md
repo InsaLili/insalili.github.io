@@ -34,7 +34,7 @@ header-img: "img/bg3.png"
         <br>
         <p class="hightName">GoNY: a trip planning activity</p>
         <p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to stay in NY; 2) which hotel they want to live in; and 3) which places they would like to visit. We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. We conducted a study using GoNY to understand how the orientation of a large display used alongside tablets impacts collaboration (figure on the bottom left).</p>
-        <p>For more about this study, welcome to check the <b><a target="_blank" href="https://www.youtube.com/watch?v=mzs1pfae6qg">video here</a></b>. The results of this study is accepted by INTERACT conference 2017 (to be updated).</p>
+        <p>For more information about this study, welcome to check the <b><a target="_blank" href="https://www.youtube.com/watch?v=mzs1pfae6qg">video here</a></b>. This study is accepted by INTERACT conference 2017 (to be updated).</p>
         <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
       </div>
     </div>
