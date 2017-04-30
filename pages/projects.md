@@ -71,7 +71,7 @@ header-img: "img/bg3.png"
 				<p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01363632/file/MobileHCI16-HAL.pdf">here</a></b>.</p>
 			</div>
 		</div>
-		<h4>General design & develop methods & tools:</h4>
+		<h5>General design & develop methods & tools:</h5>
     <ul>
       <li>Co-designed the game with teachers using <b>storyboarding</b> and <b>Balsamiq Mockups</b></li>
       <li>Managed a students developer for creating the Android application for tablets</li>
@@ -120,12 +120,12 @@ header-img: "img/bg3.png"
 			</div>
 			<div class="col-md-6">
 				<h5>Description:</h5>
-				<p>It is an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices to collect stars. To see how it works, please check the <b><a target="_blank" href="https://youtu.be/A-14eEVYPoM">video here</a></b>.</p>
+				<p>It is an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices to collect stars.</p> 
+				<p>To see how it works, please check the <b><a target="_blank" href="https://youtu.be/A-14eEVYPoM">video here</a></b>.</p>
 				<p>For more information of this work, welcome to check our paper <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">here</a>.</p>
-				<p>Check the codes on github <b><a href="">here</a></b>.</p>
 			</div>
 		</div>
-		<h4>Develop methods & tools:</h4>
+		<h5>Develop methods & tools:</h5>
     <ul>
       <li>Developed a device detection system using <b>Arduino</b> and magnet switches</li>
       <li>Developed multi-touch and tangible interaction recognition using <b>CCV</b></li>
