@@ -12,7 +12,7 @@ header-img: "img/bg3.png"
 		<hr class="styled-hr" style="width:100%;">
 	</div>
 	<div class="section">
-		<h4>Study of F-formations and collaboration dynamics in a mobile learning game</h4>
+		<h4>A mobile orienteering learning game</h4>
 		<div class="row">
 			<div class="col-md-6">
 				<img src="/img/proto4_1.png">
