@@ -38,7 +38,7 @@ header-img: "img/bg3.png"
         <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
       </div>
     </div>
-    <h4>General design & develop methods & tools:</h4>
+    <h5>General design & develop methods & tools:</h5>
     <ul>
       <li>Interviewed and discussed with teachers to learn their requirements (Pickit)</li>
       <li>Collaborated with a research team for designing UI and workflow</li>
@@ -122,7 +122,7 @@ header-img: "img/bg3.png"
 				<h5>Description:</h5>
 				<p>It is an infrastructure which allows the dynamic reconfiguration of interactive spaces by grouping different devices together. I applied a simple web-based game onto this infrastructure. The game world could be automatially extended when we bring in new devices. User can touch the interactive surface to control a little player to jump through devices to collect stars.</p> 
 				<p>To see how it works, please check the <b><a target="_blank" href="https://youtu.be/A-14eEVYPoM">video here</a></b>.</p>
-				<p>For more information of this work, welcome to check our paper <a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">here</a>.</p>
+				<p>For more information of this work, welcome to check our paper <b><a target="_blank" href="http://dl.acm.org/citation.cfm?id=2669548">here</a></b>.</p>
 			</div>
 		</div>
 		<h5>Develop methods & tools:</h5>
