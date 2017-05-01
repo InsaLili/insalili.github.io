@@ -47,7 +47,7 @@ header-img: "img/bg3.png"
       <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
   </div> -->
-    <div class="section">
+  <div class="section">
     <h4>Cross-device collaborative activities</h4>
     <div class="row">
       <div class="col-md-6">
@@ -91,7 +91,7 @@ header-img: "img/bg3.png"
       <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
   </div>
-  
+
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
