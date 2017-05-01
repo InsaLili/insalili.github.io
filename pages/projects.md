@@ -59,6 +59,8 @@ header-img: "img/bg3.png"
         <br>
         <br>
         <img src="/img/gony/study.png" width="95%">
+        <br>
+        <hr class="styled-hr" style="width:100%;">
       </div>
       <div class="col-md-6">
         <br>
