@@ -13,7 +13,7 @@ header-img: "img/bg3.png"
 	</div>	    
   <div class="section">
     <h4>Cross-device collaborative applications</h4>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-6">
         <img src="/img/pickit/app.png" width="100%">
         <br>
@@ -36,6 +36,20 @@ header-img: "img/bg3.png"
         <p>The figure on the middle left is an open-ended trip planning activity. In this activity, users need to plan their trip itinerary for New York within a fixed budget. They need to agree on 1) how many days they want to stay in NY; 2) which hotel they want to live in; and 3) which places they would like to visit. We applied similar interaction machanism from the former learning activity. The shared display is used for supporting collaboration, and tablets are used for individual exploration. We conducted a study using GoNY to understand how the orientation of a large display used alongside tablets impacts collaboration (figure on the bottom left).</p>
         <p>For more information about this study, welcome to check the <b><a target="_blank" href="https://www.youtube.com/watch?v=mzs1pfae6qg">video here</a></b>. This study is accepted by INTERACT conference 2017 (to be updated).</p>
         <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="col-md-6">
+        <br>
+        <img src="/img/pickit/app.png" width="100%">
+      </div>
+      <div class="col-md-6">
+        <h5>Description:</h5>
+        <p class="hightName">1) <b>Pickit</b>: a decision-making activity for high school students</p>
+        <p>The figure on top left is a decision-making learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
+        <p>To achieve their mission, students need to use the combination of large interactive display with personal tablets. The shared display shows the context of the decision-making. It supports group collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to tap their own avatar inside the pop-up box of the marker on the shared display. The work flow contains three steps: individual browsing, collaborative discussion and collective decision-making.</p>
+        <p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01493815/file/CSEDU_2017_62_CR%20%282%29.pdf">here</a></b>.</p>
+        <p>This application is also hosed on Heroku server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (resolution: 1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
       </div>
     </div>
     <h5>General design & develop methods & tools:</h5>
