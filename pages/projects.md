@@ -59,9 +59,6 @@ header-img: "img/bg3.png"
         <br>
         <br>
         <img src="/img/gony/study.png" width="95%">
-        <br>
-        <br>
-        <hr class="styled-hr" style="width:100%;">
       </div>
       <div class="col-md-6">
         <br>
@@ -91,7 +88,7 @@ header-img: "img/bg3.png"
 		<h4>InsectPuzzle: a mobile orienteering learning game</h4>
 		<div class="row">
 			<div class="col-md-6">
-				<img src="/img/mobile/app.png">
+				<img src="/img/mobile/app.png" width="100%">
 <!-- 				<br>
 				<br>
 				<br>
@@ -181,10 +178,10 @@ header-img: "img/bg3.png"
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/img/proto3_4.jpeg">
+						<img src="/img/proto3_4.jpeg" width="100%">
 					</div>
 					<div class="col-md-6">
-						<img src="/img/proto3_3.jpeg">
+						<img src="/img/proto3_3.jpeg" width="100%">
 					</div>
 				</div>
 				<br>
