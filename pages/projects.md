@@ -61,9 +61,13 @@ header-img: "img/bg3.png"
         <img src="/img/gony/study.png" width="95%">
         <hr class="styled-hr" style="width:100%;">
       </div>
-      
+      <div class="col-md-6">
+        <br>
+        <br>
+        <p class="hightName">2) <b>GoNY</b>: a trip planning activity</p>
+      </div>
     </div>
-    
+
     <h5>General design & develop methods & tools:</h5>
     <ul>
       <li>Interviewed and discussed with teachers to learn their requirements (Pickit)</li>
