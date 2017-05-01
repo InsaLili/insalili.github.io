@@ -47,12 +47,12 @@ header-img: "img/bg3.png"
       <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
   </div> -->
-  <div class="section">
+    <div class="section">
     <h4>Cross-device collaborative activities</h4>
     <div class="row">
       <div class="col-md-6">
         <br>
-        <img src="/img/pickit/app.png" width="100%">
+        <img src="img/pickit/app.png" width="100%">
       </div>
       <div class="col-md-6">
         <h5>Description:</h5>
@@ -66,10 +66,10 @@ header-img: "img/bg3.png"
     <div class="row">
         <div class="col-md-6">
             <hr class="styled-hr" style="width:100%;">
-            <img src="/img/gony/app.png" width="100%">
+            <img src="img/gony/app.png" width="100%">
             <br>
             <br>
-            <img src="/img/gony/study.png" width="95%">
+            <img src="img/gony/study.png" width="95%">
             <hr class="styled-hr" style="width:100%;">
         </div>
         <div class="col-md-6">
@@ -91,6 +91,7 @@ header-img: "img/bg3.png"
       <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
   </div>
+  
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
