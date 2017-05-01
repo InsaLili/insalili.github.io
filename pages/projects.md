@@ -65,6 +65,11 @@ header-img: "img/bg3.png"
         <br>
         <br>
         <p class="hightName">2) <b>GoNY</b>: a trip planning activity</p>
+        <p>The figure on the left is a trip planning activity. In this activity, users need to plan their trip itinerary for New York within a limited budget. The shared screen displayed a map with markers for 15 tourist attractions and 8 hotels. Participants could push detailed information on their tablet by tapping their avatar on a marker. Information provided for each location included: description, price, rating, and feedback from other tourists. Using their tablets, participants could individually add locations to their favorites and take notes. A card per location showed its favorites and notes on the shared screen. Four filter buttons on the shared screen were used to show/hide attractions, hotels, favorite locations, location cards. A timer in the top right corner reminded participants how much time was left.</p>
+        <p>I conducted a study using GoNY to understand on how the orientation of a large display (horizontal vs. vertical) used alongside tablets impacts participants' collaboration (figure on the bottom left). Results show that using a horizontal surface will lead to better equity of interaction and more cohesive activities. On the other hand, group coordination is more structured and is organized around a main interactor when a vertical display is used.</p>
+        <p>For more information about this study, welcome to check the <b><a target="_blank" href="https://www.youtube.com/watch?v=mzs1pfae6qg">video here</a></b>. This study is accepted by INTERACT conference 2017 (to be updated).</p>
+        
+        <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
       </div>
     </div>
 
