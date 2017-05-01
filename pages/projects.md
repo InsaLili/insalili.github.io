@@ -87,7 +87,8 @@ header-img: "img/bg3.png"
 		<h4>InsectPuzzle: a mobile orienteering learning game</h4>
 		<div class="row">
 			<div class="col-md-6">
-				<img src="/img/mobile/app.png" width="100%">
+				<br>
+				<img src="/img/mobile/app.png" width="90%">
 <!-- 				<br>
 				<br>
 				<br>
