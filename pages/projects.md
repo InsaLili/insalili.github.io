@@ -11,7 +11,7 @@ header-img: "img/bg3.png"
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>	    
-  <!-- <div class="section">
+  <div class="section">
     <h4>Cross-device collaborative applications</h4>
     <div class="row">
       <div class="col-md-6">
@@ -46,52 +46,7 @@ header-img: "img/bg3.png"
       <li>Applied <b>agile design</b> methodology in the design and develop process</li>
       <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
-  </div> -->
-  <div class="section">
-    <h4>Cross-device collaborative activities</h4>
-    <div class="row">
-      <div class="col-md-6">
-        <br>
-        <img src="img/pickit/app.png" width="100%">
-      </div>
-      <div class="col-md-6">
-        <h5>Description:</h5>
-        <p class="hightName">1) <b>Pickit</b>: a decision-making activity for high school students</p>
-        <p>The figure on top left is a decision-making learning activity for high school students which we developed with the help of teachers and students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
-        <p>To achieve their mission, students need to use the combination of large interactive display with personal tablets. The shared display shows the context of the decision-making. It supports group collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to tap their own avatar inside the pop-up box of the marker on the shared display. The work flow contains three steps: individual browsing, collaborative discussion and collective decision-making.</p>
-        <p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01493815/file/CSEDU_2017_62_CR%20%282%29.pdf">here</a></b>.</p>
-        <p>This application is also hosed on Heroku server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (resolution: 1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
-      </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <hr class="styled-hr" style="width:100%;">
-            <img src="img/gony/app.png" width="100%">
-            <br>
-            <br>
-            <img src="img/gony/study.png" width="95%">
-            <hr class="styled-hr" style="width:100%;">
-        </div>
-        <div class="col-md-6">
-            <br>
-            <br>
-            <p class="hightName">2) <b>GoNY</b>: a trip planning activity</p>
-            <p>The figure on the left is a trip planning activity. In this activity, users need to plan their trip itinerary for New York within a limited budget. The shared screen displayed a map with markers for 15 tourist attractions and 8 hotels. Participants could push detailed information on their tablet by tapping their avatar on a marker. Information provided for each location included: description, price, rating, and feedback from other tourists. Using their tablets, participants could individually add locations to their favorites and take notes. A card per location showed its favorites and notes on the shared screen. Four filter buttons on the shared screen were used to show/hide attractions, hotels, favorite locations, location cards. A timer in the top right corner reminded participants how much time was left.
-            <p>I conducted a study using GoNY to understand on how the orientation of a large display (horizontal vs. vertical) used alongside tablets impacts participants' collaboration (figure on the bottom left). Results show that using a horizontal surface will lead to better equity of interaction and more cohesive activities. On the other hand, group coordination is more structured and is organized around a main interactor when a vertical display is used.</p>
-            <p>For more information about this study, welcome to check the <b><a target="_blank" href="https://www.youtube.com/watch?v=mzs1pfae6qg">video here</a></b>. This study is accepted by INTERACT conference 2017 (to be updated).</p>
-            <p>The application is available on-line: <b><a target="_blank" href="https://gony.herokuapp.com/">shared surface</a></b> (1920x1080), <b><a target="_blank" href="https://gony.herokuapp.com/player">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/Trip">here</a></b>.</p>
-        </div>
-    </div>
-    <h5>General design & develop methods & tools:</h5>
-    <ul>
-      <li>Interviewed and discussed with teachers to learn their requirements (Pickit)</li>
-      <li>Collaborated with a research team for designing UI and workflow</li>
-      <li>Developed applications: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices)</li>
-      <li>Applied <b>agile design</b> methodology in the design and develop process</li>
-      <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
-    </ul>
   </div>
-
 	<div>
 		<hr class="styled-hr" style="width:100%;">
 	</div>
