@@ -55,10 +55,10 @@ header-img: "img/bg3.png"
     <div class="row">
       <div class="col-md-6">
         <hr class="styled-hr" style="width:100%;">
-        <img src="img/gony/app.png" width="100%">
+        <img src="/img/gony/app.png" width="100%">
         <br>
         <br>
-        <img src="img/gony/study.png" width="95%">
+        <img src="/img/gony/study.png" width="95%">
         <hr class="styled-hr" style="width:100%;">
       </div>
       <div class="col-md-6">
