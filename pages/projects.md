@@ -46,7 +46,7 @@ header-img: "img/bg3.png"
       <div class="col-md-6">
         <h5>Description:</h5>
         <p class="hightName">1) <b>Pickit</b>: a decision-making activity for high school students</p>
-        <p>The figure on top left is a decision-making learning activity I designed and developed for high school students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
+        <p>The figure on top left is a decision-making learning activity which I designed and developed for high school students. In this activity, a group of three students act as a consult team, their mission is to help a agriculture company to choose an appropriate location for establishing factory. They need to take concern of the factory's requirements and also think about using sustainable resources.</p>
         <p>To achieve their mission, students need to use the combination of large interactive display with personal tablets. The shared display shows the context of the decision-making. It supports group collaboration, such as discussion, negotiation and taking decision. The personal devices are used for individual exploration, such as analysing data of each location, sumbitting comments and providing evaluation. To get information of each location, students need to tap their own avatar inside the pop-up box of the marker on the shared display. The work flow contains three steps: individual browsing, collaborative discussion and collective decision-making.</p>
         <p>For more details of this study, welcome to check our paper <b><a target="_blank" href="https://hal.archives-ouvertes.fr/hal-01493815/file/CSEDU_2017_62_CR%20%282%29.pdf">here</a></b>.</p>
         <p>This application is also hosed on Heroku server: <b><a target="_blank" href="https://myoa.herokuapp.com/">shared surface</a></b> (resolution: 1920x1080), <b><a target="_blank" href="https://myoa.herokuapp.com/#/individual">tablet</a></b>. Codes are <b><a target="_blank" href="https://github.com/InsaLili/myoa-app">here</a></b>.</p>
@@ -111,7 +111,7 @@ header-img: "img/bg3.png"
 		<h5>Design & develop methods & tools:</h5>
     <ul>
       <li>Co-designed the game with teachers using <b>storyboarding</b> and <b>Balsamiq Mockups</b></li>
-      <li>Managed a students developer for creating the Android application for tablets</li>
+      <li>Managed a student developer for creating the Android application for tablets</li>
       <li>Conducted <b>usability testing</b> with students to study how the mobile device and game design impact their collaboration and task performance using <b>qualitative & quantitative analysis methods</b></li>
     </ul>
 	</div>
