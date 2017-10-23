@@ -77,7 +77,7 @@ header-img: "img/bg3.png"
     <ul>
       <li>Interviewed and discussed with teachers to learn their requirements (Pickit)</li>
       <li>Collaborated with a research team for designing UI and workflow</li>
-      <li>Developed applications: <b>AngularJS</b>, <b>NodeJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices)</li>
+      <li>Developed applications: <b>AngularJS</b>, <b>NodeJS</b>, <b>Mapbox</b> (customizing map), <b>Bootstrap</b>, <b>CouchDB</b> (database), <b>Heroku</b> (hosting), <b>Hammer</b> (touch gesture), and <b>Websockets</b> (communication among devices)</li>
       <li>Applied <b>agile design</b> methodology in the design and develop process</li>
       <li>Conducted <b>usability tests</b> with students and participants using <b> qualitative & quantitative analysis methods</b></li>
     </ul>
