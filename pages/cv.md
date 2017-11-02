@@ -7,7 +7,7 @@ permalink: /cv/
 <div class="home">
 	<div class="section">
 		<h3>Profile</h3>
-			<p>I obtained my Ph.D. degree in the department of Computer Science at the University of Lyon, INSA-Lyon, France. My supervisors were Audrey Serna, <a href="http://www.tabard.fr/" target="_blank">Aurélien Tabard</a> and <a href="http://perso.univ-lemans.fr/~sgeorge/index.html" target="_blank">Sébastien George</a>. I was affiliated with laboratory LIRIS and CNRS. My Ph.D. subject was <b> Designing and analyzing collaborative activities in multi-surface environments</b>, which is in the field of Human-Computer Interaction. I am experienced in UX research & design, and Frontend developing.</p>
+			<p>I obtained my Ph.D. degree in the department of Computer Science at <a target="_blank" href="http://www.insa-lyon.fr/en">INSA Lyon</a>, <a target="_blank" href="http://www.cnrs.fr/">CNRS</a>, France. My supervisors were Audrey Serna, <a href="http://www.tabard.fr/" target="_blank">Aurélien Tabard</a> and <a href="http://perso.univ-lemans.fr/~sgeorge/index.html" target="_blank">Sébastien George</a>. I was affiliated with laboratory LIRIS. My Ph.D. subject was <b> Designing and analyzing collaborative activities in multi-surface environments</b>, which is in the field of Human-Computer Interaction. I am experienced in UX research & design, and Full-stack developing.</p>
 	</div>
 	<div>
 		<hr class="styled-hr" style="width:100%;">
@@ -17,7 +17,7 @@ permalink: /cv/
 		<div class="row">
 			<div class="col-md-9">
 				<h5>Ph.D. in Computer Science (Human-computer Interaction)</h5>
-			  <p>National Institute of Applied Sciences Lyon (INSA Lyon), France</p>
+			  <p>National Institute of Applied Sciences Lyon (INSA Lyon), CNRS, France</p>
 			</div>
 			<div class="col-md-3">
 				<h5>09.2013 - 05.2017</h5>
@@ -45,11 +45,12 @@ permalink: /cv/
 	  <h3>Skills</h3>
 	  <ul>
   		<li><h5>Programming</h5></li>
-  		HTML5, CSS, Javascript, NodeJS, C/C++, Java (limited)
-  		<li><h5>Design tools</h5></li>
-  		Balsamiq Mockups, paper prototyping, storyboarding, Sketch, Axure, InVision
-  		<li><h5>User research</h5></li>
-  		Behavioral analysis, Quantitative & Qualitative experiments & analysis, Usability testing, A/B testing
+  		Javascript (NodeJS, AngularJS, CouchDB), HTML5, CSS (Bootstrap), C/C#, Unity 3D
+  		<li><h5>UX research</h5></li>
+  		Quantitative: data-driven investigation, observational and experimental studies
+  		Qualitative: questionnaire, interview, user observation and coding
+  		<li><h5>Interaction Design</h5></li>
+  		Wire-framing, storyboarding, personas, paper prototyping, mockups, heuristic evaluation
   		<li><h5>Electronics</h5></li>
   		ARM core chip STM32 and STM8, Arduino, Circuit design and PCB design
   		<li><h5>Language</h5></li>
