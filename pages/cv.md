@@ -47,7 +47,7 @@ permalink: /cv/
   		<li><h5>Programming</h5></li>
   		Javascript (NodeJS, AngularJS, CouchDB), HTML5, CSS (Bootstrap), C/C#, Unity 3D
   		<li><h5>UX research</h5></li>
-  		Quantitative: data-driven investigation, observational and experimental studies
+  		Quantitative: data-driven investigation, observational and experimental studies <br>
   		Qualitative: questionnaire, interview, user observation and coding
   		<li><h5>Interaction Design</h5></li>
   		Wire-framing, storyboarding, personas, paper prototyping, mockups, heuristic evaluation
