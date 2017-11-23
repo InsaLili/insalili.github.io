@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Lili Tong (佟莉莉), a PhD student from INSA Lyon, laboratory LIRIS. My primary research interest is in the area of Human Computer Interaction, which is focusing on exploring interaction, collaboration and applications in multi-surface environments 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tonglili.net" # the base hostname & protocol for your site
-twitter_username: rabbit_lyon
+twitter_username: lilitong_lyon
 github_username:  insalili
 
 # Build settings
