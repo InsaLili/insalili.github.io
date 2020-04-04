@@ -161,8 +161,8 @@ exports.default = build;
 gulp.task("generate-favicon", function(done) {
   realFavicon.generateFavicon(
     {
-      masterPicture: "assets/favicon.png",
-      dest: "assets",
+      masterPicture: "img/favicon.png",
+      dest: "img/icons",
       iconsPath: "/",
       design: {
         ios: {
@@ -236,7 +236,7 @@ gulp.task("inject-favicon-markups", function() {
         JSON.parse(fs.readFileSync(FAVICON_DATA_FILE)).favicon.html_code
       )
     )
-    .pipe(gulp.dest("dist"));
+    .pipe(gulp.dest("./"));
 });
 
 // Check for updates on RealFaviconGenerator (think: Apple has just
