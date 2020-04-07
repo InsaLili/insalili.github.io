@@ -53,6 +53,10 @@ function clean() {
 
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
+  //popper for tooltip
+  var popper = gulp
+    .src("./node_modules/@popperjs/core/dist/umd/popper.min.js")
+    .pipe(gulp.dest("./vendor/popper"));
   // Bootstrap
   var bootstrap = gulp
     .src("./node_modules/bootstrap/dist/**/*")
@@ -77,6 +81,7 @@ function modules() {
     ])
     .pipe(gulp.dest("./vendor/jquery"));
   return merge(
+    popper,
     bootstrap,
     fontAwesomeCSS,
     fontAwesomeWebfonts,
