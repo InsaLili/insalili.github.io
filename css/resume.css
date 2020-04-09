@@ -149,7 +149,8 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    min-width: 23rem;
+    padding-left: 2rem;
   }
 }
 
@@ -181,4 +182,8 @@ a:hover, a:focus, a:active {
   height: 80%;
   position: relative;
   top: -3px;
+}
+
+.project-img {
+  width: 100%;
 }
