@@ -52,7 +52,7 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
-  height: 2rem;
+  min-height: 2rem;
 }
 
 .social-icons a {
@@ -149,8 +149,7 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 23rem;
-    padding-left: 2rem;
+    min-width: 18rem;
   }
 }
 
@@ -178,8 +177,8 @@ a:hover, a:focus, a:active {
 }
 
 .logo {
-  margin-left: 1rem;
-  height: 80%;
+  margin-right: 0.5rem;
+  height: 1.5rem;
   position: relative;
   top: -3px;
 }
