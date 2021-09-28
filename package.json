@@ -31,7 +31,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
     "@popperjs/core": "^2.10.1",
-    "bootstrap": "5.0.2",
+    "bootstrap": "5.1.1",
     "jquery": "3.6.0",
     "jquery.easing": "^1.4.1"
   },
