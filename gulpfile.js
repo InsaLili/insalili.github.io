@@ -1,41 +1,41 @@
-"use strict";
+'use strict';
 
 // Load plugins
-const autoprefixer = require("gulp-autoprefixer");
-const browsersync = require("browser-sync").create();
-const cleanCSS = require("gulp-clean-css");
-const del = require("del");
-const gulp = require("gulp");
-const header = require("gulp-header");
-const merge = require("merge-stream");
-const plumber = require("gulp-plumber");
-const rename = require("gulp-rename");
-const sass = require("gulp-sass");
-const uglify = require("gulp-uglify");
-const realFavicon = require("gulp-real-favicon");
-const fs = require("fs");
+const autoprefixer = require('gulp-autoprefixer');
+const browsersync = require('browser-sync').create();
+const cleanCSS = require('gulp-clean-css');
+const del = require('del');
+const gulp = require('gulp');
+const header = require('gulp-header');
+const merge = require('merge-stream');
+const plumber = require('gulp-plumber');
+const rename = require('gulp-rename');
+const sass = require('gulp-sass')(require('sass'));
+const uglify = require('gulp-uglify');
+const realFavicon = require('gulp-real-favicon');
+const fs = require('fs');
 // Load package.json for banner
-const pkg = require("./package.json");
-const FAVICON_DATA_FILE = "faviconData.json";
+const pkg = require('./package.json');
+const FAVICON_DATA_FILE = 'faviconData.json';
 
 // Set the banner content
 const banner = [
-  "/*!\n",
-  " * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n",
-  " * Copyright 2013-" + new Date().getFullYear(),
-  " <%= pkg.author %>\n",
-  " * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n",
-  " */\n",
-  "\n"
-].join("");
+  '/*!\n',
+  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
+  ' * Copyright 2013-' + new Date().getFullYear(),
+  ' <%= pkg.author %>\n',
+  ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
+  ' */\n',
+  '\n',
+].join('');
 
 // BrowserSync
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: './',
     },
-    port: 3000
+    port: 3000,
   });
   done();
 }
@@ -48,38 +48,38 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["./vendor/"]);
+  return del(['./vendor/']);
 }
 
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
   //popper for tooltip
   var popper = gulp
-    .src("./node_modules/@popperjs/core/dist/umd/popper.min.js")
-    .pipe(gulp.dest("./vendor/popper"));
+    .src('./node_modules/@popperjs/core/dist/umd/popper.min.js')
+    .pipe(gulp.dest('./vendor/popper'));
   // Bootstrap
   var bootstrap = gulp
-    .src("./node_modules/bootstrap/dist/**/*")
-    .pipe(gulp.dest("./vendor/bootstrap"));
+    .src('./node_modules/bootstrap/dist/**/*')
+    .pipe(gulp.dest('./vendor/bootstrap'));
   // Font Awesome CSS
   var fontAwesomeCSS = gulp
-    .src("./node_modules/@fortawesome/fontawesome-free/css/**/*")
-    .pipe(gulp.dest("./vendor/fontawesome-free/css"));
+    .src('./node_modules/@fortawesome/fontawesome-free/css/**/*')
+    .pipe(gulp.dest('./vendor/fontawesome-free/css'));
   // Font Awesome Webfonts
   var fontAwesomeWebfonts = gulp
-    .src("./node_modules/@fortawesome/fontawesome-free/webfonts/**/*")
-    .pipe(gulp.dest("./vendor/fontawesome-free/webfonts"));
+    .src('./node_modules/@fortawesome/fontawesome-free/webfonts/**/*')
+    .pipe(gulp.dest('./vendor/fontawesome-free/webfonts'));
   // jQuery Easing
   var jqueryEasing = gulp
-    .src("./node_modules/jquery.easing/*.js")
-    .pipe(gulp.dest("./vendor/jquery-easing"));
+    .src('./node_modules/jquery.easing/*.js')
+    .pipe(gulp.dest('./vendor/jquery-easing'));
   // jQuery
   var jquery = gulp
     .src([
-      "./node_modules/jquery/dist/*",
-      "!./node_modules/jquery/dist/core.js"
+      './node_modules/jquery/dist/*',
+      '!./node_modules/jquery/dist/core.js',
     ])
-    .pipe(gulp.dest("./vendor/jquery"));
+    .pipe(gulp.dest('./vendor/jquery'));
   return merge(
     popper,
     bootstrap,
@@ -93,60 +93,60 @@ function modules() {
 // CSS task
 function css() {
   return gulp
-    .src("./scss/**/*.scss")
+    .src('./scss/**/*.scss')
     .pipe(plumber())
     .pipe(
       sass({
-        outputStyle: "expanded",
-        includePaths: "./node_modules"
+        outputStyle: 'expanded',
+        includePaths: './node_modules',
       })
     )
-    .on("error", sass.logError)
+    .on('error', sass.logError)
     .pipe(
       autoprefixer({
-        cascade: false
+        cascade: false,
       })
     )
     .pipe(
       header(banner, {
-        pkg: pkg
+        pkg: pkg,
       })
     )
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest('./css'))
     .pipe(
       rename({
-        suffix: ".min"
+        suffix: '.min',
       })
     )
     .pipe(cleanCSS())
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest('./css'))
     .pipe(browsersync.stream());
 }
 
 // JS task
 function js() {
   return gulp
-    .src(["./js/*.js", "!./js/*.min.js"])
+    .src(['./js/*.js', '!./js/*.min.js'])
     .pipe(uglify())
     .pipe(
       header(banner, {
-        pkg: pkg
+        pkg: pkg,
       })
     )
     .pipe(
       rename({
-        suffix: ".min"
+        suffix: '.min',
       })
     )
-    .pipe(gulp.dest("./js"))
+    .pipe(gulp.dest('./js'))
     .pipe(browsersync.stream());
 }
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
-  gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
-  gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch('./scss/**/*', css);
+  gulp.watch(['./js/**/*', '!./js/**/*.min.js'], js);
+  gulp.watch('./**/*.html', browserSyncReload);
 }
 
 // Define complex tasks
@@ -163,68 +163,68 @@ exports.build = build;
 exports.watch = watch;
 exports.default = build;
 
-gulp.task("generate-favicon", function(done) {
+gulp.task('generate-favicon', function (done) {
   realFavicon.generateFavicon(
     {
-      masterPicture: "img/favicon.png",
-      dest: "img/icons",
-      iconsPath: "/",
+      masterPicture: 'img/favicon.png',
+      dest: 'img/icons',
+      iconsPath: '/',
       design: {
         ios: {
-          pictureAspect: "noChange",
+          pictureAspect: 'noChange',
           assets: {
             ios6AndPriorIcons: false,
             ios7AndLaterIcons: false,
             precomposedIcons: false,
-            declareOnlyDefaultIcon: true
-          }
+            declareOnlyDefaultIcon: true,
+          },
         },
         desktopBrowser: {
-          design: "raw"
+          design: 'raw',
         },
         windows: {
-          pictureAspect: "noChange",
-          backgroundColor: "#da532c",
-          onConflict: "override",
+          pictureAspect: 'noChange',
+          backgroundColor: '#da532c',
+          onConflict: 'override',
           assets: {
             windows80Ie10Tile: false,
             windows10Ie11EdgeTiles: {
               small: false,
               medium: true,
               big: false,
-              rectangle: false
-            }
-          }
+              rectangle: false,
+            },
+          },
         },
         androidChrome: {
-          pictureAspect: "noChange",
-          themeColor: "#ffffff",
+          pictureAspect: 'noChange',
+          themeColor: '#ffffff',
           manifest: {
-            display: "standalone",
-            orientation: "notSet",
-            onConflict: "override",
-            declared: true
+            display: 'standalone',
+            orientation: 'notSet',
+            onConflict: 'override',
+            declared: true,
           },
           assets: {
             legacyIcon: false,
-            lowResolutionIcons: false
-          }
+            lowResolutionIcons: false,
+          },
         },
         safariPinnedTab: {
-          pictureAspect: "silhouette",
-          themeColor: "#5bbad5"
-        }
+          pictureAspect: 'silhouette',
+          themeColor: '#5bbad5',
+        },
       },
       settings: {
-        scalingAlgorithm: "Mitchell",
+        scalingAlgorithm: 'Mitchell',
         errorOnImageTooSmall: false,
         readmeFile: false,
         htmlCodeFile: false,
-        usePathAsIs: false
+        usePathAsIs: false,
       },
-      markupFile: FAVICON_DATA_FILE
+      markupFile: FAVICON_DATA_FILE,
     },
-    function() {
+    function () {
       done();
     }
   );
@@ -233,24 +233,24 @@ gulp.task("generate-favicon", function(done) {
 // Inject the favicon markups in your HTML pages. You should run
 // this task whenever you modify a page. You can keep this task
 // as is or refactor your existing HTML pipeline.
-gulp.task("inject-favicon-markups", function() {
+gulp.task('inject-favicon-markups', function () {
   return gulp
-    .src(["index.html"])
+    .src(['index.html'])
     .pipe(
       realFavicon.injectFaviconMarkups(
         JSON.parse(fs.readFileSync(FAVICON_DATA_FILE)).favicon.html_code
       )
     )
-    .pipe(gulp.dest("./"));
+    .pipe(gulp.dest('./'));
 });
 
 // Check for updates on RealFaviconGenerator (think: Apple has just
 // released a new Touch icon along with the latest version of iOS).
 // Run this task from time to time. Ideally, make it part of your
 // continuous integration system.
-gulp.task("check-for-favicon-update", function(done) {
+gulp.task('check-for-favicon-update', function (done) {
   var currentVersion = JSON.parse(fs.readFileSync(FAVICON_DATA_FILE)).version;
-  realFavicon.checkForUpdates(currentVersion, function(err) {
+  realFavicon.checkForUpdates(currentVersion, function (err) {
     if (err) {
       throw err;
     }
