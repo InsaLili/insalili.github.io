@@ -56,7 +56,20 @@
     />
     <meta name="theme-color" content="#ffffff" />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-YWZHVFPKJY"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
+    gtag('config', 'G-YWZHVFPKJY');
+  </script>
   <body id="page-top">
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -128,7 +141,14 @@
             <span class="text-primary">Tong</span>
           </h1>
           <div class="subheading mb-5">
-            <a href="mailto:insa.lilitong@gmail.com">lilitong.work@gmail.com</a>
+            <a
+              href="#"
+              data-name="lilitong.work"
+              data-domain="gmail"
+              data-tld="com"
+              onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"
+              >lilitong.work@gmail.com</a
+            >
           </div>
           <p class="lead mb-5">
             I am a frontend developer with UX research background. I love what I
@@ -576,8 +596,8 @@
             </p>
             <p>
               This study has been published on CSEDU (Computer Supported
-              Education) 2017 and won the best student paper award. Welcome
-              to check our paper
+              Education) 2017 and won the best student paper award. Welcome to
+              check our paper
               <b
                 ><a
                   target="_blank"
