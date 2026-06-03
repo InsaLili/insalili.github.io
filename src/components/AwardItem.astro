@@ -1,0 +1,13 @@
+---
+import type { Award } from '../data/types';
+
+interface Props {
+  item: Award;
+}
+
+const { item } = Astro.props;
+---
+
+<li class="border-l-2 border-border pl-3 py-1.5 text-[0.9rem] leading-snug text-fg/90 transition-colors hover:border-[color:var(--color-accent)] dark:border-border-dark dark:text-fg-dark/85">
+  {item.text}
+</li>

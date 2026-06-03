@@ -1,0 +1,112 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import Slide from '../components/Slide.astro';
+import DeckNav from '../components/DeckNav.astro';
+import ExperienceItem from '../components/ExperienceItem.astro';
+import EducationItem from '../components/EducationItem.astro';
+import SkillGroup from '../components/SkillGroup.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import PublicationItem from '../components/PublicationItem.astro';
+import AwardItem from '../components/AwardItem.astro';
+
+import { profile } from '../data/profile';
+import { experience } from '../data/experience';
+import { education } from '../data/education';
+import { skillGroups } from '../data/skills';
+import { projects, projectIntro } from '../data/projects';
+import { publications } from '../data/publications';
+import { awards } from '../data/awards';
+
+const slideList = [
+  { id: 'about', label: 'About' },
+  { id: 'experience', label: 'Work' },
+  { id: 'education', label: 'Education' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'publications', label: 'Publications' },
+  { id: 'awards', label: 'Awards & Service' },
+];
+const total = slideList.length;
+---
+
+<Layout
+  title={`${profile.firstName} ${profile.lastName} — Software Engineer`}
+  description={profile.tagline}
+>
+  <div class="flex h-screen flex-col">
+    <header class="flex items-center justify-between px-6 py-4 sm:px-10">
+      <div>
+        <div class="text-sm font-semibold tracking-tight text-fg dark:text-fg-dark sm:text-base">
+          {profile.firstName} {profile.lastName}
+        </div>
+        <div class="text-xs text-muted dark:text-muted-dark">
+          Software Engineer · Amsterdam
+        </div>
+      </div>
+      <ThemeToggle />
+    </header>
+
+    <div class="deck-track flex-1" data-deck-track aria-roledescription="carousel">
+      <Slide id="about" index={1} total={total}>
+        <div class="flex h-full flex-col justify-center">
+          <h1 class="text-4xl font-semibold tracking-tight text-fg dark:text-fg-dark sm:text-5xl">
+            {profile.firstName} {profile.lastName}
+          </h1>
+          <p class="mt-4 text-lg text-muted dark:text-muted-dark">
+            {profile.tagline}
+          </p>
+          <div class="mt-8 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <a href={`mailto:${profile.email}`} class="link">{profile.email}</a>
+            {profile.socials.map((s) => (
+              <a href={s.href} target="_blank" rel="noopener noreferrer" class="link">
+                {s.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </Slide>
+
+      <Slide id="experience" index={2} total={total} title="Work">
+        <div class="divide-y divide-border dark:divide-border-dark">
+          {experience.map((item) => <ExperienceItem item={item} />)}
+        </div>
+      </Slide>
+
+      <Slide id="education" index={3} total={total} title="Education">
+        <div class="my-auto divide-y divide-border dark:divide-border-dark">
+          {education.map((item) => <EducationItem item={item} />)}
+        </div>
+      </Slide>
+
+      <Slide id="skills" index={4} total={total} title="Skills">
+        <div class="divide-y divide-border dark:divide-border-dark">
+          {skillGroups.map((group) => <SkillGroup group={group} />)}
+        </div>
+      </Slide>
+
+      <Slide id="projects" index={5} total={total} title="Projects">
+        <p class="mb-4 text-[0.9rem] text-muted dark:text-muted-dark">
+          {projectIntro.blurb}
+        </p>
+        <div class="divide-y divide-border dark:divide-border-dark">
+          {projects.map((project) => <ProjectCard project={project} />)}
+        </div>
+      </Slide>
+
+      <Slide id="publications" index={6} total={total} title="Publications">
+        <ul class="divide-y divide-border dark:divide-border-dark">
+          {publications.map((item) => <PublicationItem item={item} />)}
+        </ul>
+      </Slide>
+
+      <Slide id="awards" index={7} total={total} title="Awards & Service">
+        <ul class="my-auto">
+          {awards.map((item) => <AwardItem item={item} />)}
+        </ul>
+      </Slide>
+    </div>
+
+    <DeckNav slides={slideList} />
+  </div>
+</Layout>

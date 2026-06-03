@@ -1,0 +1,56 @@
+---
+import type { Experience } from '../data/types';
+
+interface Props {
+  item: Experience;
+}
+
+const { item } = Astro.props;
+---
+
+<article class="py-4">
+  <header class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+    <div class="text-[0.95rem]">
+      <span class="font-medium text-fg dark:text-fg-dark">{item.org}</span>
+      <span class="text-muted dark:text-muted-dark"> · {item.role}</span>
+    </div>
+    <div class="font-mono text-xs text-muted dark:text-muted-dark">
+      {item.dateRange}
+    </div>
+  </header>
+
+  <div class="mt-1 text-sm text-muted dark:text-muted-dark">{item.location}</div>
+
+  <details class="exp mt-3 text-[0.9rem] leading-relaxed text-fg/85 dark:text-fg-dark/80">
+    <summary class="cursor-pointer select-none text-xs text-muted hover:text-fg dark:text-muted-dark dark:hover:text-fg-dark">
+      <span class="more">+ more</span>
+      <span class="less">− less</span>
+    </summary>
+    <div class="mt-3 space-y-3">
+      {item.paragraphs.map((p) => <p>{p}</p>)}
+      {item.stack && (
+        <p class="text-xs text-muted dark:text-muted-dark">
+          <span class="font-mono">stack:</span> {item.stack}
+        </p>
+      )}
+    </div>
+  </details>
+</article>
+
+<style>
+  .exp > summary {
+    list-style: none;
+  }
+  .exp > summary::-webkit-details-marker {
+    display: none;
+  }
+  .exp > summary .less {
+    display: none;
+  }
+  .exp[open] > summary .more {
+    display: none;
+  }
+  .exp[open] > summary .less {
+    display: inline;
+  }
+</style>

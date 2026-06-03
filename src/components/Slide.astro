@@ -1,0 +1,32 @@
+---
+interface Props {
+  id: string;
+  index: number;
+  total: number;
+  title?: string;
+}
+
+const { id, index, total, title } = Astro.props;
+---
+
+<article
+  id={id}
+  class="slide group"
+  data-slide-index={index}
+  aria-roledescription="slide"
+  aria-label={`${index} of ${total}${title ? `: ${title}` : ''}`}
+>
+  {title && (
+    <header class="mb-6 flex shrink-0 items-baseline justify-between">
+      <h2 class="text-2xl font-semibold tracking-tight text-fg dark:text-fg-dark">
+        {title}
+      </h2>
+      <span class="font-mono text-xs text-muted dark:text-muted-dark">
+        {String(index).padStart(2, '0')} / {String(total).padStart(2, '0')}
+      </span>
+    </header>
+  )}
+  <div class="flex min-h-0 flex-1 flex-col">
+    <slot />
+  </div>
+</article>
