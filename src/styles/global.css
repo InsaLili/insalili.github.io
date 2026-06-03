@@ -1,0 +1,171 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* Light (only used if user explicitly toggles) */
+  --color-bg: oklch(0.985 0.003 250);
+  --color-surface: oklch(0.96 0.004 250);
+  --color-fg: oklch(0.22 0.012 250);
+  --color-muted: oklch(0.50 0.010 250);
+  --color-border: oklch(0.90 0.008 250);
+
+  /* Dark — primary mode */
+  --color-bg-dark: oklch(0.155 0.012 250);
+  --color-surface-dark: oklch(0.205 0.013 250);
+  --color-fg-dark: oklch(0.94 0.005 250);
+  --color-muted-dark: oklch(0.62 0.010 250);
+  --color-border-dark: oklch(0.30 0.014 250);
+
+  /* Accent — warm amber, used very sparingly */
+  --color-accent: oklch(0.82 0.14 80);
+  --color-accent-soft: oklch(0.82 0.14 80 / 0.15);
+}
+
+html,
+body {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+html.dark {
+  background-color: var(--color-bg-dark);
+  color: var(--color-fg-dark);
+}
+
+.deck-track {
+  display: flex;
+  gap: clamp(1rem, 3vw, 2rem);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding-inline: max(1.25rem, calc((100vw - min(85vw, 44rem)) / 2));
+  padding-block: 1rem;
+  height: 100%;
+}
+
+.deck-track::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  flex: 0 0 min(85vw, 44rem);
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 1.25rem;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  transition: opacity 0.3s ease, border-color 0.3s ease;
+  transform: scale(0.88);
+  opacity: 0.55;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+html.dark .slide {
+  background-color: var(--color-surface-dark);
+  border-color: var(--color-border-dark);
+  scrollbar-color: var(--color-border-dark) transparent;
+}
+
+.slide[data-active="true"] {
+  transform: scale(1);
+  opacity: 1;
+  border-color: color-mix(in oklch, var(--color-accent) 40%, var(--color-border));
+}
+
+html.dark .slide[data-active="true"] {
+  border-color: color-mix(in oklch, var(--color-accent) 50%, var(--color-border-dark));
+}
+
+@supports (animation-timeline: view()) {
+  .slide {
+    animation: deck-zoom linear both;
+    animation-timeline: view(inline);
+    animation-range: cover 0% cover 100%;
+  }
+  @keyframes deck-zoom {
+    0%,
+    100% {
+      transform: scale(0.85);
+      opacity: 0.45;
+    }
+    45%,
+    55% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+}
+
+.deck-dot {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 9999px;
+  background-color: var(--color-border);
+  transition: width 0.25s ease, background-color 0.25s ease;
+}
+
+html.dark .deck-dot {
+  background-color: var(--color-border-dark);
+}
+
+.deck-dot[data-active="true"] {
+  width: 1.5rem;
+  background-color: var(--color-accent);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01", "ss03";
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-accent-soft);
+  color: var(--color-fg);
+}
+
+html.dark ::selection {
+  color: var(--color-fg-dark);
+}
+
+a.link {
+  color: var(--color-fg);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklch, var(--color-muted) 50%, transparent);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
+}
+a.link:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+html.dark a.link {
+  color: var(--color-fg-dark);
+  text-decoration-color: color-mix(in oklch, var(--color-muted-dark) 50%, transparent);
+}
+html.dark a.link:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}

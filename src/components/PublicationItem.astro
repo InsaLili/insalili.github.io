@@ -1,0 +1,36 @@
+---
+import type { Publication } from '../data/types';
+
+interface Props {
+  item: Publication;
+}
+
+const { item } = Astro.props;
+
+const authorParts = item.authors.split(/(\*\*[^*]+\*\*)/g).map((chunk) => {
+  if (chunk.startsWith('**') && chunk.endsWith('**')) {
+    return { bold: true, text: chunk.slice(2, -2) };
+  }
+  return { bold: false, text: chunk };
+});
+---
+
+<li class="py-3 text-[0.9rem] leading-relaxed">
+  <div class="text-muted dark:text-muted-dark">
+    {authorParts.map((p) => (p.bold ? <strong class="font-medium text-fg dark:text-fg-dark">{p.text}</strong> : <span>{p.text}</span>))}
+    · <span class="font-mono text-xs">{item.year}</span>
+  </div>
+  <div class="mt-1 text-fg dark:text-fg-dark">{item.title}</div>
+  <div class="mt-1 text-xs text-muted dark:text-muted-dark">
+    {item.venue}{item.details ? `, ${item.details}` : ''}
+    {item.link && (
+      <>
+        {' · '}
+        <a href={item.link.href} target="_blank" rel="noopener noreferrer" class="link font-mono">
+          {item.link.doi}
+        </a>
+      </>
+    )}
+    {item.note && <span> · {item.note}</span>}
+  </div>
+</li>

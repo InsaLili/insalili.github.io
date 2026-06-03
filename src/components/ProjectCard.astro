@@ -1,0 +1,68 @@
+---
+import { Image } from 'astro:assets';
+import type { Project, ProjectParagraph } from '../data/types';
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+
+const renderParagraph = (p: ProjectParagraph): { type: 'plain'; text: string } | { type: 'rich'; parts: Array<{ type: 'text'; text: string } | { type: 'link'; text: string; href: string }> } => {
+  if (typeof p === 'string') return { type: 'plain', text: p };
+  const parts: Array<{ type: 'text'; text: string } | { type: 'link'; text: string; href: string }> = [];
+  const regex = /\{([^}]+)\}/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = regex.exec(p.text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push({ type: 'text', text: p.text.slice(lastIndex, match.index) });
+    }
+    const linkDef = p.links.find((l) => l.text === match![1]);
+    if (linkDef) {
+      parts.push({ type: 'link', text: linkDef.text, href: linkDef.href });
+    } else {
+      parts.push({ type: 'text', text: match[0] });
+    }
+    lastIndex = regex.lastIndex;
+  }
+  if (lastIndex < p.text.length) {
+    parts.push({ type: 'text', text: p.text.slice(lastIndex) });
+  }
+  return { type: 'rich', parts };
+};
+
+const rendered = project.paragraphs.map(renderParagraph);
+---
+
+<article class="grid grid-cols-1 gap-4 py-5 sm:grid-cols-[7rem_1fr] sm:gap-6">
+  <Image
+    src={project.image}
+    alt={project.name}
+    widths={[160, 320]}
+    sizes="(min-width: 640px) 7rem, 100vw"
+    class="h-auto w-full max-w-[8rem] rounded-sm object-cover opacity-80 ring-1 ring-border transition hover:opacity-100 dark:ring-border-dark sm:max-w-none"
+  />
+  <div class="text-[0.9rem] leading-relaxed">
+    <h3 class="text-[0.95rem] font-medium text-fg dark:text-fg-dark">
+      {project.name} <span class="text-muted dark:text-muted-dark">— {project.tagline}</span>
+    </h3>
+    <div class="mt-2 space-y-2 text-fg/85 dark:text-fg-dark/80">
+      {rendered.map((p) => (
+        <p>
+          {p.type === 'plain' ? (
+            p.text
+          ) : (
+            p.parts.map((part) =>
+              part.type === 'text' ? (
+                <span>{part.text}</span>
+              ) : (
+                <a href={part.href} target="_blank" rel="noopener noreferrer" class="link">{part.text}</a>
+              ),
+            )
+          )}
+        </p>
+      ))}
+    </div>
+  </div>
+</article>

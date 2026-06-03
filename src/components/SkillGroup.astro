@@ -1,0 +1,20 @@
+---
+import type { SkillGroup } from '../data/types';
+
+interface Props {
+  group: SkillGroup;
+}
+
+const { group } = Astro.props;
+---
+
+<div class="py-3">
+  <h3 class="text-sm font-medium text-fg dark:text-fg-dark">{group.title}</h3>
+  <ul class="mt-3">
+    {group.items.map((item) => (
+      <li class="border-l-2 border-border pl-3 py-1.5 text-[0.9rem] leading-snug text-fg/90 transition-colors hover:border-[color:var(--color-accent)] dark:border-border-dark dark:text-fg-dark/85">
+        {item}
+      </li>
+    ))}
+  </ul>
+</div>

@@ -1,0 +1,126 @@
+---
+import { Icon } from 'astro-icon/components';
+
+interface Props {
+  slides: { id: string; label: string }[];
+}
+
+const { slides } = Astro.props;
+---
+
+<nav
+  class="pointer-events-auto flex items-center justify-center gap-4 px-6 py-4"
+  aria-label="Slide navigation"
+>
+  <button
+    type="button"
+    id="deck-prev"
+    class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted transition hover:border-fg hover:text-fg disabled:opacity-30 disabled:hover:border-border disabled:hover:text-muted dark:border-border-dark dark:text-muted-dark dark:hover:border-fg-dark dark:hover:text-fg-dark dark:disabled:hover:border-border-dark dark:disabled:hover:text-muted-dark"
+    aria-label="Previous slide"
+  >
+    <Icon name="lucide:arrow-left" class="h-4 w-4" />
+  </button>
+
+  <ol class="flex items-center gap-2" role="tablist">
+    {slides.map((s, i) => (
+      <li>
+        <button
+          type="button"
+          class="deck-dot block"
+          data-deck-target={s.id}
+          data-deck-index={i}
+          role="tab"
+          aria-label={s.label}
+          aria-controls={s.id}
+        ></button>
+      </li>
+    ))}
+  </ol>
+
+  <button
+    type="button"
+    id="deck-next"
+    class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border text-muted transition hover:border-fg hover:text-fg disabled:opacity-30 disabled:hover:border-border disabled:hover:text-muted dark:border-border-dark dark:text-muted-dark dark:hover:border-fg-dark dark:hover:text-fg-dark dark:disabled:hover:border-border-dark dark:disabled:hover:text-muted-dark"
+    aria-label="Next slide"
+  >
+    <Icon name="lucide:arrow-right" class="h-4 w-4" />
+  </button>
+</nav>
+
+<script is:inline>
+  (function () {
+    const track = document.querySelector('[data-deck-track]');
+    if (!track) return;
+    const slides = Array.from(track.querySelectorAll('.slide'));
+    const dots = Array.from(document.querySelectorAll('[data-deck-index]'));
+    const prev = document.getElementById('deck-prev');
+    const next = document.getElementById('deck-next');
+
+    let activeIndex = 0;
+    const setActive = (i) => {
+      activeIndex = i;
+      slides.forEach((s, idx) => s.setAttribute('data-active', String(idx === i)));
+      dots.forEach((d, idx) => d.setAttribute('data-active', String(idx === i)));
+      if (prev) prev.toggleAttribute('disabled', i === 0);
+      if (next) next.toggleAttribute('disabled', i === slides.length - 1);
+    };
+
+    const scrollTo = (i) => {
+      const target = slides[i];
+      if (!target) return;
+      const trackRect = track.getBoundingClientRect();
+      const targetRect = target.getBoundingClientRect();
+      const delta = targetRect.left + targetRect.width / 2 - (trackRect.left + trackRect.width / 2);
+      track.scrollBy({ left: delta, behavior: 'smooth' });
+    };
+
+    dots.forEach((d, i) => d.addEventListener('click', () => scrollTo(i)));
+    prev?.addEventListener('click', () => scrollTo(Math.max(0, activeIndex - 1)));
+    next?.addEventListener('click', () => scrollTo(Math.min(slides.length - 1, activeIndex + 1)));
+
+    document.addEventListener('keydown', (e) => {
+      if (e.target instanceof HTMLElement && /^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        scrollTo(Math.max(0, activeIndex - 1));
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        scrollTo(Math.min(slides.length - 1, activeIndex + 1));
+      }
+    });
+
+    const updateActiveFromScroll = () => {
+      const trackRect = track.getBoundingClientRect();
+      const center = trackRect.left + trackRect.width / 2;
+      let closest = 0;
+      let closestDist = Infinity;
+      slides.forEach((slide, idx) => {
+        const rect = slide.getBoundingClientRect();
+        const slideCenter = rect.left + rect.width / 2;
+        const dist = Math.abs(slideCenter - center);
+        if (dist < closestDist) {
+          closestDist = dist;
+          closest = idx;
+        }
+      });
+      if (closest !== activeIndex) setActive(closest);
+    };
+
+    let rafId = 0;
+    track.addEventListener(
+      'scroll',
+      () => {
+        if (rafId) return;
+        rafId = requestAnimationFrame(() => {
+          rafId = 0;
+          updateActiveFromScroll();
+        });
+      },
+      { passive: true },
+    );
+    window.addEventListener('resize', updateActiveFromScroll, { passive: true });
+
+    setActive(0);
+    requestAnimationFrame(updateActiveFromScroll);
+  })();
+</script>
